@@ -1,0 +1,8 @@
+{
+    "from": "User",
+    "inherits": "0.20mm Standard @Creality Ender3V3SE 0.4",
+    "is_custom_defined": "0",
+    "name": "0.20mm Standard @Creality Ender3V3SE 0.4 - original",
+    "print_settings_id": "0.20mm Standard @Creality Ender3V3SE 0.4 - original",
+    "version": "2.3.1.10"
+}
