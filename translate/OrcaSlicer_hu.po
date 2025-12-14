@@ -14403,15 +14403,19 @@ msgid ""
 "a wipe action is executed immediately following an outer wall extrusion, the "
 "speed of the outer wall extrusion will be utilized for the wipe action."
 msgstr ""
+"A törlési sebességet az aktuális extrudálási szerepkör sebessége határozza meg. Pl. ha "
+"egy külső fal kihúzását követően azonnal végrehajtunk egy törlési műveletet, a "
+"a külső fal extrudálásának sebességét fogják felhasználni a törlési művelethez."
 
 msgid "Wipe on loops"
-msgstr ""
+msgstr "Törölje be a hurkokat"
 
 msgid ""
 "To minimize the visibility of the seam in a closed loop extrusion, a small "
 "inward movement is executed before the extruder leaves the loop."
 msgstr ""
-
+"A zárt hurkú extrudálás során a varrat láthatóságának minimalizálása érdekében egy kis "
+"a befelé irányuló mozgás végrehajtásra kerül, mielőtt az extruder elhagyná a hurkot."
 msgid "Wipe before external loop"
 msgstr ""
 
@@ -14426,6 +14430,15 @@ msgid ""
 "order as in these modes it is more likely an external perimeter is printed "
 "immediately after a de-retraction move."
 msgstr ""
+"A külső eljárás kezdetén a potenciális túlextrudálás láthatóságának minimalizálása érdekében"
+„kerület Külső/Belső vagy Belső/Külső/Belső fal nyomtatási sorrendben történő nyomtatás esetén”
+"a visszahúzást a kezdetektől kissé belülről hajtják végre"
+"külső kerület. Így minden potenciális túlnyúlás rejtve marad a "
+"külső felület."
+"\n"
+„Ez akkor hasznos, ha külső/belső vagy belső/külső/belső fal nyomtatással nyomtat.”
+„sorrend, mivel ezekben a módokban valószínűbb, hogy egy külső kerület kerül kinyomtatásra”
+„közvetlenül egy visszahúzás-csökkentő mozdulat után.”
 
 msgid "Wipe speed"
 msgstr "Törlés sebessége"
@@ -14448,27 +14461,32 @@ msgid "The distance from the skirt to the brim or the object."
 msgstr "A szoknyától a peremig vagy tárgyig mért távolság"
 
 msgid "Skirt start point"
-msgstr ""
+msgstr "Szoknya kezdőpontja"
 
 msgid ""
 "Angle from the object center to skirt start point. Zero is the most right "
 "position, counter clockwise is positive angle."
 msgstr ""
+"A tárgy középpontjától a szoknya kezdőpontjáig bezárt szög. A nulla a legpontosabb."
+"az óramutató járásával ellentétes irányban a pozitív szög."
 
 msgid "Skirt height"
-msgstr ""
+msgstr "Szoknya magassága"
 
 msgid "How many layers of skirt. Usually only one layer."
-msgstr ""
+msgstr "Hány rétegű a szoknya? Általában csak egy réteg."
 
 msgid "Single loop after first layer"
-msgstr ""
+msgstr "Egyetlen hurok az első réteg után"
 
 msgid ""
 "Limits the skirt/draft shield loops to one wall after the first layer. This is "
 "useful, on occasion, to conserve filament but may cause the draft shield/skirt "
 "to warp / crack."
 msgstr ""
+„A szoknya/huzatvédő hurkok egy falra korlátozódnak az első réteg után. Ez az.”
+„alkalmanként hasznos az izzószál megőrzése érdekében, de a huzatvédő/szoknya megrepedését okozhatja.”
+"vetemülni / repedni."
 
 msgid "Draft shield"
 msgstr "Huzatvédő"
@@ -14484,19 +14502,29 @@ msgid ""
 "from the object. Therefore, if brims are active it may intersect with them. To "
 "avoid this, increase the skirt distance value.\n"
 msgstr ""
+"A huzatvédő hasznos az ABS vagy ASA nyomatok vetemedés elleni védelmére."
+"szélhuzat miatt leválhat a nyomtatóágyról. Általában csak nyitott állapotban van rá szükség."
+„keretnyomtatók, azaz ház nélküli nyomtatók.”
+"\n"
+„Engedélyezve = a szoknya olyan magas, mint a legmagasabban kinyomtatott objektum. Egyébként a „Szoknya” felirat látható.”
+„magasság” használatban van.\n"
+"Megjegyzés: Ha a huzatvédő aktív, a szoknya szoknyatávolságon belül lesz kinyomtatva."
+„a tárgytól. Ezért, ha a karimák aktívak, akkor metszheti őket. A „
+„ennek elkerülése érdekében növelje a szoknya távolságának értékét.”
 
 msgid "Enabled"
 msgstr "Engedélyezve"
 
 msgid "Skirt type"
-msgstr ""
+msgstr "Szoknya típus"
 
 msgid ""
 "Combined - single skirt for all objects, Per object - individual object skirt."
 msgstr ""
+"Kombinált - egyetlen szoknya minden objektumhoz, Objektumonként - egyedi objektum szoknya."
 
 msgid "Per object"
-msgstr ""
+msgstr "Objektumonként"
 
 msgid "Skirt loops"
 msgstr "Szoknya hurkok száma"
@@ -14514,10 +14542,10 @@ msgid "Skirt speed"
 msgstr ""
 
 msgid "Speed of skirt, in mm/s. Zero means use default layer extrusion speed."
-msgstr ""
+msgstr "A szoknya sebessége mm/s-ban. A nulla az alapértelmezett rétegkihúzási sebesség használatát jelenti."
 
 msgid "Skirt minimum extrusion length"
-msgstr ""
+msgstr "Szoknya minimális kinyúlási hossza"
 
 msgid ""
 "Minimum filament extrusion length in mm when printing the skirt. Zero means this "
@@ -14528,6 +14556,13 @@ msgid ""
 "Final number of loops is not taking into account while arranging or validating "
 "objects distance. Increase loop number in such case."
 msgstr ""
+"Minimális filament extrudálási hossza mm-ben a szoknya nyomtatásakor. A nulla ezt jelenti."
+"a funkció le van tiltva."
+"\n"
+"A nullától eltérő érték használata akkor hasznos, ha a nyomtató úgy van beállítva, hogy "
+„elsődleges vonal.”
+"A hurkok végső számát nem veszik figyelembe az elrendezés vagy az érvényesítés során."
+"objektumok távolsága. Ilyen esetben növelje a ciklusok számát."
 
 msgid ""
 "The printing speed in exported G-code will be slowed down when the estimated "
@@ -14551,12 +14586,14 @@ msgid "Solid infill"
 msgstr "Tömör kitöltés"
 
 msgid "Filament to print solid infill."
-msgstr ""
+msgstr "Filament tömör kitöltés nyomtatásához."
 
 msgid ""
 "Line width of internal solid infill. If expressed as a %, it will be computed "
 "over the nozzle diameter."
 msgstr ""
+"A belső tömör kitöltés vonalszélessége. Ha százalékban van kifejezve, akkor a rendszer kiszámítja."
+"a fúvóka átmérője felett."
 
 msgid "Speed of internal solid infill, not the top and bottom surface."
 msgstr ""
