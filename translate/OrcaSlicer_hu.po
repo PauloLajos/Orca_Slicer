@@ -10717,19 +10717,19 @@ msgid "Only one wall on first layer"
 msgstr "Csak egy fal az első rétegen"
 
 msgid "Use only one wall on first layer, to give more space to the bottom infill pattern."
-msgstr "Use only one wall on first layer, to give more space to the bottom infill pattern."
+msgstr "Az első rétegen csak egy falat használjon, hogy több hely legyen az alsó kitöltési mintának."
 
 msgid "Extra perimeters on overhangs"
-msgstr ""
+msgstr "Extra kerületek a túlnyúlásokon"
 
 msgid "Create additional perimeter paths over steep overhangs and areas where bridges cannot be anchored."
-msgstr ""
+msgstr "Meredek túlnyúlások és olyan területek felett, ahol a hidak nem rögzíthetők, további kerületi utakat kell létrehozni."
 
 msgid "Reverse on even"
-msgstr ""
+msgstr "Párosakat fordít"
 
 msgid "Overhang reversal"
-msgstr ""
+msgstr "Túlnyúlás visszafordítása"
 
 msgid ""
 "Extrude perimeters that have a part over an overhang in the reverse direction on even layers. This alternating pattern "
@@ -10737,9 +10737,13 @@ msgid ""
 "\n"
 "This setting can also help reduce part warping due to the reduction of stresses in the part walls."
 msgstr ""
+„Olyan kerületek kihúzása, amelyeknek egy része túlnyúlás felett van, ellentétes irányban, páros rétegeken. Ez a váltakozó minta.”
+„drámai mértékben javíthatja a meredek túlnyúlásokat.”
+"\n"
+"Ez a beállítás a feszültségek csökkenése miatt az alkatrész falaiban is segíthet csökkenteni az alkatrész vetemedését."
 
 msgid "Reverse only internal perimeters"
-msgstr ""
+msgstr "Csak belső kerületek megfordítása"
 
 msgid ""
 "Apply the reverse perimeters logic only on internal perimeters.\n"
@@ -10752,9 +10756,18 @@ msgid ""
 "For this setting to be the most effective, it is recommended to set the Reverse Threshold to 0 so that all internal "
 "walls print in alternating directions on even layers irrespective of their overhang degree."
 msgstr ""
+"A fordított kerületi logikát csak belső kerületekre alkalmazza."
+"\n"
+„Ez a beállítás nagymértékben csökkenti az alkatrészek feszültségeit, mivel azok most váltakozó irányokba oszlanak el. Ennek csökkentenie kellene a …”
+„alkatrész vetemedés, miközben megőrzi a külső fal minőségét. Ez a funkció nagyon hasznos lehet vetemedésre hajlamos anyagok esetében,”
+„mint az ABS/ASA, valamint rugalmas filamentekhez, mint a TPU és a selyem PLA. Segíthet csökkenteni a vetemedést a lebegő szálaknál is.”
+„régiók a támaszok felett.”
+"\n"
+"Ahhoz, hogy ez a beállítás a leghatékonyabb legyen, ajánlott a fordított küszöbértéket 0-ra állítani, hogy minden belső "
+„A falak váltakozó irányban nyomtatnak egyenletes rétegekre, függetlenül azok túlnyúlásának mértékétől.”
 
 msgid "Bridge counterbore holes"
-msgstr ""
+msgstr "Híd süllyesztett furatok"
 
 msgid ""
 "This option creates bridges for counterbore holes, allowing them to be printed without support. Available modes "
@@ -10763,6 +10776,11 @@ msgid ""
 "2. Partially Bridged: Only a part of the unsupported area will be bridged\n"
 "3. Sacrificial Layer: A full sacrificial bridge layer is created"
 msgstr ""
+„Ez az opció áthidalásokat hoz létre süllyesztett furatokhoz, lehetővé téve azok alátámasztás nélküli nyomtatását. Elérhető módok.”
+"tartalmazza:\n"
+"1. Nincs: Nem jön létre híd\n"
+"2. Részben áthidalva: A nem támogatott területnek csak egy részét hidalják át\n"
+"3. Áldozati réteg: Egy teljes áldozati hídréteg jön létre"
 
 msgid "Partially bridged"
 msgstr ""
