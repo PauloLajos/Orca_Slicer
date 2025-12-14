@@ -70,36 +70,36 @@ msgstr ""
 "használatakor."
 
 msgid "PPS-CF is brittle and could break in bended PTFE tube above Toolhead."
-msgstr ""
+msgstr "A PPS-CF törékeny és eltörhet a szerszámfej feletti hajlított PTFE csőben."
 
 msgid "PPA-CF is brittle and could break in bended PTFE tube above Toolhead."
-msgstr ""
+msgstr "A PPA-CF törékeny és eltörhet a szerszámfej feletti hajlított PTFE csőben."
 
 #, c-format, boost-format
 msgid "%s is not supported by %s extruder."
-msgstr ""
+msgstr "%s nem támogatja a %s extruder."
 
 msgid "Current AMS humidity"
-msgstr ""
+msgstr "Jelenlegi AMS páratartalom"
 
 msgid "Humidity"
-msgstr ""
+msgstr "Páratartalom"
 
 msgid "Temperature"
 msgstr "Hőmérséklet"
 
 msgid "Left Time"
-msgstr ""
+msgstr "Bal idő"
 
 msgid "Drying"
-msgstr ""
+msgstr "Szárítás"
 
 msgid "Idle"
 msgstr "Tétlen"
 
 #, c-format, boost-format
 msgid "%d ℃"
-msgstr ""
+msgstr "%d ℃"
 
 msgid "Serial:"
 msgstr "Sorozatszám:"
@@ -292,7 +292,7 @@ msgid "Filament remapping finished."
 msgstr ""
 
 msgid "Paint-on fuzzy skin"
-msgstr ""
+msgstr "Festék fel homályos bőrre"
 
 msgid "Brush size"
 msgstr "Ecset mérete"
@@ -301,19 +301,19 @@ msgid "Brush shape"
 msgstr "Ecset alakja"
 
 msgid "Add fuzzy skin"
-msgstr ""
+msgstr "Homályos bőr hozzáadása"
 
 msgid "Remove fuzzy skin"
-msgstr ""
+msgstr "Távolítsa el a homályos bőrt"
 
 msgid "Reset selection"
-msgstr ""
+msgstr "Kiválasztás visszaállítása"
 
 msgid "Move"
 msgstr "Mozgatás"
 
 msgid "Please select at least one object."
-msgstr ""
+msgstr "Kérjük, válasszon ki legalább egy objektumot."
 
 msgid "Gizmo-Move"
 msgstr "Gizmo-Mozgatás"
@@ -346,19 +346,19 @@ msgid "mm"
 msgstr "mm"
 
 msgid "Part selection"
-msgstr ""
+msgstr "Alkatrész kiválasztása"
 
 msgid "Fixed step drag"
-msgstr ""
+msgstr "Fix lépéshúzás"
 
 msgid "Single sided scaling"
-msgstr ""
+msgstr "Egyoldalas méretezés"
 
 msgid "Position"
 msgstr "Pozíció"
 
 msgid "Rotate (relative)"
-msgstr ""
+msgstr "Forgatás (relatív)"
 
 msgid "Scale ratios"
 msgstr "Méretarányok"
@@ -388,25 +388,25 @@ msgid "Reset Rotation"
 msgstr "Forgatás visszaállítása"
 
 msgid "Object coordinates"
-msgstr ""
+msgstr "Az objektum koordinátái"
 
 msgid "World coordinates"
 msgstr "Világkoordináták"
 
 msgid "Translate(Relative)"
-msgstr ""
+msgstr "Fordítás (relatív)"
 
 msgid "Reset current rotation to the value when open the rotation tool."
-msgstr ""
+msgstr "Állítsa vissza az aktuális forgást arra az értékre, amikor megnyitja az elforgató eszközt."
 
 msgid "Rotate (absolute)"
-msgstr ""
+msgstr "Forgatás (abszolút)"
 
 msgid "Reset current rotation to real zeros."
-msgstr ""
+msgstr "Állítsa vissza az aktuális forgást valódi nullákra."
 
 msgid "Part coordinates"
-msgstr ""
+msgstr "Alkatrész koordinátái"
 
 #. TRN - Input label. Be short as possible
 msgid "Size"
@@ -428,37 +428,37 @@ msgid "Manual"
 msgstr "Manuális"
 
 msgid "Plug"
-msgstr ""
+msgstr "Dug"
 
 msgid "Dowel"
-msgstr ""
+msgstr "Dübel"
 
 msgid "Snap"
 msgstr "Csatlakoztatás"
 
 msgid "Prism"
-msgstr ""
+msgstr "Prizma"
 
 msgid "Frustum"
-msgstr "Frustum"
+msgstr "Darab"
 
 msgid "Square"
-msgstr ""
+msgstr "Négyzet"
 
 msgid "Hexagon"
-msgstr ""
+msgstr "Hatszög"
 
 msgid "Keep orientation"
 msgstr "Tájolás megtartása"
 
 msgid "Place on cut"
-msgstr ""
+msgstr "Helyezze a vágásra"
 
 msgid "Flip upside down"
-msgstr ""
+msgstr "Fordítsa fejjel lefelé"
 
 msgid "Connectors"
-msgstr ""
+msgstr "Csatlakozók"
 
 msgid "Type"
 msgstr "Típus"
@@ -12205,12 +12205,12 @@ msgid "Speed of gap infill. Gap usually has irregular line width and should be p
 msgstr "A hézagkitöltés nyomtatási sebessége. A rés általában szabálytalan vonalszélességű, és lassabban kell nyomtatni"
 
 msgid "Precise Z height"
-msgstr ""
+msgstr "Pontos Z magasság"
 
 msgid ""
 "Enable this to get precise Z height of object after slicing. It will get the precise object height by fine-tuning the "
 "layer heights of the last few layers. Note that this is an experimental parameter."
-msgstr ""
+msgstr "Engedélyezze ezt az objektum pontos Z magasságának meghatározásához szeletelés után. "
 
 msgid "Arc fitting"
 msgstr "Íves illesztés"
@@ -14440,16 +14440,16 @@ msgstr ""
 "tárggyal összeszerelési problémák akadnak"
 
 msgid "Convert holes to polyholes"
-msgstr ""
+msgstr "A lyukakat alakítsa polilyukká"
 
 msgid ""
 "Search for almost-circular holes that span more than one layer and convert the geometry to polyholes. Use the nozzle "
 "size and the (biggest) diameter to compute the polyhole.\n"
 "See http://hydraraptor.blogspot.com/2011/02/polyholes.html"
-msgstr ""
+msgstr "Keressen majdnem kör alakú lyukakat, amelyek egynél több réteget fednek le, és alakítsa át a geometriát polilyukakká. "
 
 msgid "Polyhole detection margin"
-msgstr ""
+msgstr "Lyuk érzékelési margó"
 
 #, no-c-format, no-boost-format
 msgid ""
@@ -14457,25 +14457,25 @@ msgid ""
 "As cylinders are often exported as triangles of varying size, points may not be on the circle circumference. This "
 "setting allows you some leeway to broaden the detection.\n"
 "In mm or in % of the radius."
-msgstr ""
+msgstr "Egy pont maximális eltérése a kör becsült sugarához képest.\nMivel a hengereket gyakran változó méretű háromszögként exportálják, előfordulhat, hogy a pontok nincsenek a kör kerületén. "
 
 msgid "Polyhole twist"
-msgstr ""
+msgstr "Polyhole csavar"
 
 msgid "Rotate the polyhole every layer."
-msgstr ""
+msgstr "Forgassa el a polilyukat minden rétegben."
 
 msgid "G-code thumbnails"
 msgstr "G-kód miniatűrök"
 
 msgid "Picture sizes to be stored into a .gcode and .sl1 / .sl1s files, in the following format: \"XxY, XxY, ...\""
-msgstr ""
+msgstr "gcode és .sl1 / .sl1s fájlokban tárolandó képméretek a következő formátumban: \"XxY, XxY, ...\""
 
 msgid "Format of G-code thumbnails"
-msgstr ""
+msgstr "A G-kód bélyegképeinek formátuma"
 
 msgid "Format of G-code thumbnails: PNG for best quality, JPG for smallest size, QOI for low memory firmware."
-msgstr ""
+msgstr "A G-kód bélyegképeinek formátuma: PNG a legjobb minőségért, JPG a legkisebb méretért, QOI az alacsony memóriájú firmwareért."
 
 msgid "Use relative E distances"
 msgstr "Relatív E távolságok használata"
@@ -14485,6 +14485,9 @@ msgid ""
 "unchecked (absolute extrusion mode). Wipe tower is only compatible with relative mode. It is recommended on most "
 "printers. Default is checked."
 msgstr ""
+"Relatív extrudálás javasolt, amennyiben a \"label_objects\" opciót. Néhány extruders jobban működnek ezzel a lehetőséggel" 
+"bejelölve (abszolút extrudálás mód). Törölje a torony csak kompatibilis relatív mód. Ajánlott a legtöbb" 
+a "nyomtatók. Alapértelmezés szerint be van jelölve." 
 
 msgid ""
 "Classic wall generator produces walls with constant extrusion width and for very thin areas is used gap-fill. Arachne "
@@ -14551,9 +14554,12 @@ msgid ""
 "thicker than than this value will be widened to the minimum wall width. It's expressed as a percentage over nozzle "
 "diameter."
 msgstr ""
+"Minimális vastagsága vékony funkciók. Modell tulajdonságok, amelyek vékonyabb, mint ez az érték nem lesz kinyomtatva, míg jellemzők" 
+"vastagabb, mint ezt az értéket kell szélesíteni, hogy a fal minimális szélessége. Ez százalékban kifejezve több mint fúvóka" 
+"átmérőjű."
 
 msgid "Minimum wall length"
-msgstr ""
+msgstr "Minimális fal hossza"
 
 msgid ""
 "Adjust this value to prevent short, unclosed walls from being printed, which could increase print time. Higher values "
@@ -14564,14 +14570,23 @@ msgid ""
 "surface. 'One wall threshold' is only visible if this setting is set above the default value of 0.5, or if single-wall "
 "top surfaces is enabled."
 msgstr ""
+"Állítsa be ezt az értéket, hogy megakadályozzák a rövid, lezáratlan a falon, hogy a nyomtatott, ami növelheti nyomtatási idő. A magasabb értékek" 
+az "eltávolítás egyre hosszabb falak.\n" 
+a "\n" 
+"MEGJEGYZÉS: Alsó, felső felületek nem érinti ez az érték, hogy megakadályozzák a vizuális hiányosságok, a külső a modell. " 
+"Állítsa be Egy fal küszöb' a Speciális beállítások alatt, hogy állítsa be az érzékenységet, mi tekinthető a top-" 
+"felület. Egy fal küszöb' csak akkor látható, ha ez a beállítás ki van fent az alapértelmezett érték a 0, 5, vagy ha egyetlen fal" 
+"felső felületek engedélyezve van."
 
 msgid "First layer minimum wall width"
-msgstr ""
+msgstr "Első réteg minimális fal szélessége"
 
 msgid ""
 "The minimum wall width that should be used for the first layer is recommended to be set to the same size as the nozzle. "
 "This adjustment is expected to enhance adhesion."
 msgstr ""
+"A fal minimális szélesség, hogy kell használni az első réteg javasolt kell beállítani, hogy akkora, mint a fúvóka. " 
+"Ez a kiigazítás várható, hogy fokozza a tapadást."
 
 msgid "Minimum wall width"
 msgstr "Minimális falszélesség"
@@ -14597,16 +14612,16 @@ msgstr ""
 "szerint az egyenes vonalú mintát használja."
 
 msgid "invalid value "
-msgstr ""
+msgstr "érvénytelen érték "
 
 msgid "Invalid value when spiral vase mode is enabled: "
-msgstr ""
+msgstr "Érvénytelen érték, amikor spirál váza üzemmód engedélyezve van-e: "
 
 msgid "too large line width "
-msgstr ""
+msgstr "túl nagy a vonal szélessége "
 
 msgid " not in range "
-msgstr ""
+msgstr " nincs a tartományban "
 
 msgid "Export 3MF"
 msgstr "3MF exportálása"
@@ -14630,13 +14645,13 @@ msgid "Export STL"
 msgstr "STL exportálása"
 
 msgid "Export the objects as single STL."
-msgstr ""
+msgstr "Tárgyak exportálása egyetlen STL-be."
 
 msgid "Export multiple STLs"
-msgstr ""
+msgstr "Exportálás több STL-be"
 
 msgid "Export the objects as multiple STLs to directory."
-msgstr ""
+msgstr "Exportálja az objektumokat több STL-ként egy könyvtárba."
 
 msgid "Slice"
 msgstr "Szeletelés"
