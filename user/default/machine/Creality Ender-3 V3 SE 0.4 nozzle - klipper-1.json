@@ -1,0 +1,13 @@
+{
+    "from": "User",
+    "gcode_flavor": "klipper",
+    "inherits": "Creality Ender-3 V3 SE 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "; === End ===\nM104 S0\nM140 S0\nG91\nG1 Z10 F300\nG90\nG1 X0 Y220 F3000\nM84",
+    "machine_start_gcode": "; === Klipper Start ===\nG90\nM83\nG28\nBED_MESH_PROFILE LOAD=default",
+    "name": "Creality Ender-3 V3 SE 0.4 nozzle - klipper-1",
+    "print_host": "http://192.168.50.13:7880",
+    "printer_settings_id": "Creality Ender-3 V3 SE 0.4 nozzle - klipper-1",
+    "thumbnails": "24x24/PNG, 200x200/PNG",
+    "version": "2.3.1.10"
+}

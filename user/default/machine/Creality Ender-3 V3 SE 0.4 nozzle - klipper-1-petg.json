@@ -1,0 +1,13 @@
+{
+    "from": "User",
+    "gcode_flavor": "klipper",
+    "inherits": "Creality Ender-3 V3 SE 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "; === END PRINT ===\nPRINT_END",
+    "machine_start_gcode": "; === START PRINT ===\nPRINT_START BED=75 EXTRUDER=235",
+    "name": "Creality Ender-3 V3 SE 0.4 nozzle - klipper-1-petg",
+    "print_host": "http://192.168.50.13:7880",
+    "printer_settings_id": "Creality Ender-3 V3 SE 0.4 nozzle - klipper-1-petg",
+    "thumbnails": "24x24/PNG, 200x200/PNG",
+    "version": "2.3.1.10"
+}

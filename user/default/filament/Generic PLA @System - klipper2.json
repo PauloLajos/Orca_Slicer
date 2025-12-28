@@ -1,0 +1,28 @@
+{
+    "compatible_printers": [
+        "Creality Ender-3 V3 SE 0.4 nozzle"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_cost": [
+        "3500"
+    ],
+    "filament_settings_id": [
+        "Generic PLA @System - klipper2"
+    ],
+    "from": "User",
+    "hot_plate_temp_initial_layer": [
+        "65"
+    ],
+    "inherits": "Generic PLA @System",
+    "is_custom_defined": "0",
+    "name": "Generic PLA @System - klipper2",
+    "nozzle_temperature": [
+        "200"
+    ],
+    "pressure_advance": [
+        "0.075"
+    ],
+    "version": "2.3.1.10"
+}

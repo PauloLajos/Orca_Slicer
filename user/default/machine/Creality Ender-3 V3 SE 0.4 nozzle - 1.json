@@ -1,0 +1,10 @@
+{
+    "from": "User",
+    "inherits": "Creality Ender-3 V3 SE 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_start_gcode": "M220 S100 ;Reset Feedrate\nM221 S100 ;Reset Flowrate\n\nG28 ;Home\nM420 S1; Enable mesh leveling\nM413 S0 ;Disable Powr-Loss Recovery\n\nG92 E0 ;Reset Extruder\nG1 Z2.0 F3000 ;Move Z Axis up\nG1 X-3.5 Y20 Z0.28 F5000.0 ;Move to start position\nM190 S[bed_temperature_initial_layer] ; wait for bed temp to stabilize\nM109 S[nozzle_temperature_initial_layer] ; wait for nozzle temp to stabilize\nG1 X-3.5 Y145.0 Z0.28 F1500.0 E15 ;Draw the first line\nG1 X-3.2 Y145.0 Z0.28 F5000.0 ;Move to side a little\nG1 X-3.2 Y20 Z0.28 F1500.0 E30 ;Draw the second line\nG92 E0 ;Reset Extruder\nG1 E-1.0000 F1800 ;Retract a bit\nG1 Z0.56 F3000 ;Move Z Axis up\nG1 E0.0000 F1800\nG92 E0 ;Reset Extruder\n",
+    "name": "Creality Ender-3 V3 SE 0.4 nozzle - 1",
+    "print_host": "http://192.168.50.13:5000",
+    "printer_settings_id": "Creality Ender-3 V3 SE 0.4 nozzle - 1",
+    "version": "2.3.1.10"
+}

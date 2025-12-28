@@ -1,0 +1,4225 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Orca Slicer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-05 17:33+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==1) ? 0 : 1;\n"
+"X-Generator: Poedit 3.8\n"
+
+msgid "Zoom in"
+msgstr "Zoom közelítés"
+
+msgid "Zoom out"
+msgstr "Zoom távolítás"
+
+msgid "Switch between Prepare/Preview"
+msgstr "Váltás előkészítés/előnézet között"
+
+msgid "Plater"
+msgstr ""
+
+msgid "Move: press to snap by 1mm"
+msgstr ""
+
+msgid "Support/Color Painting: adjust pen radius"
+msgstr "Támasz/Színfestés: toll méretének beállítása"
+
+msgid "Support/Color Painting: adjust section position"
+msgstr "Támasz/Színfestés: metszet pozíciójának beállítása"
+
+msgid "Gizmo"
+msgstr "Gizmo"
+
+msgid "Set extruder number for the objects and parts"
+msgstr "Extruder szám beállítása az objektumok és tárgyak számára"
+
+msgid "Delete objects, parts, modifiers"
+msgstr "Objektumok, tárgyak, módosítók törlése"
+
+msgid "Select the object/part and press space to change the name"
+msgstr "Válaszd ki az objektumot/tárgyat, és nyomd meg a szóközt a név megváltoztatásához"
+
+msgid "Mouse click"
+msgstr "Egérkattintás"
+
+msgid "Select the object/part and mouse click to change the name"
+msgstr "Válaszd ki az objektumot/tárgyat, és kattints az egérrel a név megváltoztatásához"
+
+msgid "Objects List"
+msgstr "Tárgyak listája"
+
+msgid "Vertical slider - Move active thumb Up"
+msgstr "Függőleges csúszka - Az aktív csúszka felfelé mozgatása"
+
+msgid "Vertical slider - Move active thumb Down"
+msgstr "Függőleges csúszka - Az aktív csúszka lefelé mozgatása"
+
+msgid "Horizontal slider - Move active thumb Left"
+msgstr "Vízszintes csúszka - Az aktív csúszka balra mozgatása"
+
+msgid "Horizontal slider - Move active thumb Right"
+msgstr "Vízszintes csúszka - Az aktív csúszka jobbra mozgatása"
+
+msgid "On/Off one layer mode of the vertical slider"
+msgstr "Függőleges csúszka egyréteges módjának ki/bekapcsolása"
+
+msgid "On/Off G-code window"
+msgstr ""
+
+msgid "Move slider 5x faster"
+msgstr "Csúszka 5x gyorsabb mozgatása"
+
+msgid "Horizontal slider - Move to start position"
+msgstr ""
+
+msgid "Horizontal slider - Move to last position"
+msgstr ""
+
+msgid "Release Note"
+msgstr "Verzióinformáció"
+
+#, c-format, boost-format
+msgid "version %s update information:"
+msgstr "%s verzió frissítési információi:"
+
+msgid "Network plug-in update"
+msgstr "Hálózati bővítmény frissítése"
+
+msgid "Click OK to update the Network plug-in when Orca Slicer launches next time."
+msgstr "Kattints az OK gombra a hálózati bővítmény frissítéséhez a Orca Slicer következő indításakor."
+
+#, c-format, boost-format
+msgid "A new Network plug-in (%s) is available. Do you want to install it?"
+msgstr "Új hálózati bővítmény (%s) érhető el. Szeretnéd telepíteni?"
+
+msgid "New version of Orca Slicer"
+msgstr "A Orca Slicer új verziója"
+
+msgid "Skip this Version"
+msgstr "Verzió kihagyása"
+
+msgid "Confirm and Update Nozzle"
+msgstr "Fúvóka lecserélésének megerősítése"
+
+msgid "Connect the printer using IP and access code"
+msgstr ""
+
+msgid "Try the following methods to update the connection parameters and reconnect to the printer."
+msgstr ""
+
+msgid "1. Please confirm Orca Slicer and your printer are in the same LAN."
+msgstr ""
+
+msgid "2. If the IP and Access Code below are different from the actual values on your printer, please correct them."
+msgstr ""
+
+msgid "3. Please obtain the device SN from the printer side; it is usually found in the device information on the printer screen."
+msgstr ""
+
+msgid "IP"
+msgstr "IP"
+
+msgid "Access Code"
+msgstr "Hozzáférési kód"
+
+msgid "Printer model"
+msgstr ""
+
+msgid "Printer name"
+msgstr ""
+
+msgid "Where to find your printer's IP and Access Code?"
+msgstr "Hol találom a nyomtató IP címét és a hozzáférési kódot?"
+
+msgid "Connect"
+msgstr ""
+
+msgid "Manual Setup"
+msgstr ""
+
+msgid "IP and Access Code Verified! You may close the window"
+msgstr "IP és hozzáférési kód leellenőrizve! Bezárhatod az ablakot"
+
+msgid "connecting..."
+msgstr ""
+
+msgid "Failed to connect to printer."
+msgstr ""
+
+msgid "Failed to publish login request."
+msgstr ""
+
+msgid "The printer has already been bound."
+msgstr ""
+
+msgid "The printer mode is incorrect, please switch to LAN Only."
+msgstr ""
+
+msgid "Connecting to printer... The dialog will close later"
+msgstr ""
+
+msgid "Connection failed, please double check IP and Access Code"
+msgstr "Sikertelen kapcsolódás, kérjük, ellenőrizd az IP-t és a hozzáférési kódot"
+
+msgid ""
+"Connection failed! If your IP and Access Code is correct, \n"
+"please move to step 3 for troubleshooting network issues"
+msgstr ""
+"Sikertelen kapcsolódás! Ha az IP-cím és a hozzáférési kód helyes,\n"
+"folytasd a 3. lépéssel a hálózati problémák elhárításához"
+
+msgid "Connection failed! Please refer to the wiki page."
+msgstr ""
+
+msgid "sending failed"
+msgstr ""
+
+msgid "Failed to send. Click Retry to attempt sending again. If retrying does not work, please check the reason."
+msgstr ""
+
+msgid "reconnect"
+msgstr ""
+
+msgid "Air Pump"
+msgstr ""
+
+msgid "Laser 10W"
+msgstr ""
+
+msgid "Laser 40W"
+msgstr ""
+
+msgid "Cutting Module"
+msgstr ""
+
+msgid "Auto Fire Extinguishing System"
+msgstr ""
+
+msgid "Model:"
+msgstr "Modell:"
+
+msgid "Update firmware"
+msgstr "Firmware frissítése"
+
+msgid "Beta version"
+msgstr "Béta verzió"
+
+msgid "Updating"
+msgstr "Frissítés"
+
+msgid "Update failed"
+msgstr "A frissítés nem sikerült"
+
+msgid "Update successful"
+msgstr "Sikeres frissítés"
+
+msgid "Are you sure you want to update? This will take about 10 minutes. Do not turn off the power while the printer is updating."
+msgstr "Biztos, hogy frissíteni akarsz? Ez körülbelül 10 percet vesz igénybe. Ne kapcsold ki a nyomtatót, amíg a frissítés tart."
+
+msgid ""
+"An important update was detected and needs to be run before printing can continue. Do you want to update now? You can also update later from 'Upgrade "
+"firmware'."
+msgstr ""
+"Fontos frissítést találtunk, amelyet a nyomtatás előtt telepíteni kell. Szeretnél most frissíteni? A frissítés később is elvégezhető a „Firmware "
+"frissítése“ menüpontban."
+
+msgid ""
+"The firmware version is abnormal. Repairing and updating are required before printing. Do you want to update now? You can also update later on printer or "
+"update next time starting Orca."
+msgstr ""
+"A firmware verziója rendellenes. A nyomtatás előtt javításra és frissítésre van szükség. Szeretnél frissíteni most? A frissítés később is elvégezhető a "
+"Orca Slicer következő indításakor."
+
+msgid "Extension Board"
+msgstr "Bővítőpanel"
+
+msgid "Saving objects into the 3MF failed."
+msgstr "Az objektumok mentése a 3mf-be sikertelen volt."
+
+msgid "Only Windows 10 is supported."
+msgstr "Csak a Windows 10 támogatott."
+
+msgid "Failed to initialize the WinRT library."
+msgstr "Nem sikerült a WinRT könyvtár inicializálása."
+
+msgid "Exporting objects"
+msgstr "Objektumok exportálása"
+
+msgid "Failed loading objects."
+msgstr "Nem sikerült betölteni az objektumokat."
+
+msgid "Repairing object by Windows service"
+msgstr "Objektum javítása Windows szolgáltatással"
+
+msgid "Repair failed."
+msgstr "Sikertelen javítás."
+
+msgid "Loading repaired objects"
+msgstr "Javított objektumok betöltése"
+
+msgid "Exporting 3MF file failed"
+msgstr "3MF fájl exportálása sikertelen"
+
+msgid "Import 3MF file failed"
+msgstr "3mf fájl importálása sikertelen"
+
+msgid "Repaired 3MF file does not contain any object"
+msgstr "A megjavított 3MF fájl nem tartalmaz objektumot"
+
+msgid "Repaired 3MF file contains more than one object"
+msgstr "A megjavított 3MF fájl egynél több objektumot tartalmaz"
+
+msgid "Repaired 3MF file does not contain any volume"
+msgstr "A javított 3MF fájl nem tartalmaz térfogatot."
+
+msgid "Repaired 3MF file contains more than one volume"
+msgstr "The repaired 3MF file contains more than one volume."
+
+msgid "Repair finished"
+msgstr "Javítás befejezve"
+
+msgid "Repair canceled"
+msgstr "Javítás megszakítva"
+
+#, boost-format
+msgid "Copying of file %1% to %2% failed: %3%"
+msgstr "%1% fájl másolása sikertelen a következő helyre: %2% Hiba: %3%"
+
+msgid "Need to check the unsaved changes before configuration updates."
+msgstr "Kérjük, ellenőrizd a nem mentett módosításokat a konfiguráció frissítése előtt."
+
+msgid "Configuration package: "
+msgstr ""
+
+msgid " updated to "
+msgstr ""
+
+msgid "Open G-code file:"
+msgstr "G-kód fájl megnyitása:"
+
+msgid "One object has empty initial layer and can't be printed. Please Cut the bottom or enable supports."
+msgstr "Az egyik objektum üres kezdőréteggel rendelkezik, ezért nem nyomtatható. Kérjük, vágd le az alját, vagy engedélyezd a támaszokat."
+
+#, boost-format
+msgid "Object can't be printed for empty layer between %1% and %2%."
+msgstr "Az objektumnak üres rétegei vannak %1% és %2% között, ezért nem nyomtatható."
+
+#, boost-format
+msgid "Object: %1%"
+msgstr "Objektum: %1%"
+
+msgid "Maybe parts of the object at these height are too thin, or the object has faulty mesh"
+msgstr "Az objektum ezen magasságban lévő részei túl vékonyak lehetnek, vagy az objektum hibás hálóval rendelkezik."
+
+msgid "No object can be printed. Maybe too small"
+msgstr "Objektum nem nyomtatható ki. Lehet, hogy túl kicsi."
+
+msgid "Your print is very close to the priming regions. Make sure there is no collision."
+msgstr "A nyomtatás nagyon közel van az alapozó régiókhoz. Győződjön meg róla, hogy nincs ütközés."
+
+msgid ""
+"Failed to generate G-code for invalid custom G-code.\n"
+"\n"
+msgstr ""
+"Nem sikerült a G-kód generálása érvénytelen egyedi G-kód miatt.\n"
+"\n"
+
+msgid "Please check the custom G-code or use the default custom G-code."
+msgstr "Kérjük, ellenőrizd az egyedi G-kódot vagy használd az alapértelmezett egyedi G-kódot."
+
+#, boost-format
+msgid "Generating G-code: layer %1%"
+msgstr "G-kód generálása: %1% réteg"
+
+msgid "Flush volumes matrix do not match to the correct size!"
+msgstr ""
+
+msgid "Grouping error: "
+msgstr ""
+
+msgid " can not be placed in the "
+msgstr ""
+
+msgid "Inner wall"
+msgstr "Belső fal"
+
+msgid "Outer wall"
+msgstr "Külső fal"
+
+msgid "Overhang wall"
+msgstr "Túlnyúló fal"
+
+msgid "Sparse infill"
+msgstr "Kitöltés"
+
+msgid "Internal solid infill"
+msgstr "Belső szilárd kitöltés"
+
+msgid "Top surface"
+msgstr "Felső felület"
+
+msgid "Bottom surface"
+msgstr "Alsó felület"
+
+msgid "Internal Bridge"
+msgstr ""
+
+msgid "Gap infill"
+msgstr "Réskitöltés"
+
+msgid "Support interface"
+msgstr "Támasz érintkező felület"
+
+msgid "Support transition"
+msgstr "Támasz átmenet"
+
+msgid "Multiple"
+msgstr "Többszörös"
+
+#, boost-format
+msgid "Failed to calculate line width of %1%. Cannot get value of \"%2%\" "
+msgstr "Nem sikerült kiszámítani %1% vonalszélességét. “%2%” értéke nem érhető el "
+
+msgid "Invalid spacing supplied to Flow::with_spacing(), check your layer height and extrusion width"
+msgstr ""
+
+msgid "undefined error"
+msgstr "meghatározatlan hiba"
+
+msgid "too many files"
+msgstr "túl sok fájl"
+
+msgid "file too large"
+msgstr "fájl túl nagy"
+
+msgid "unsupported method"
+msgstr "nem támogatott módszer"
+
+msgid "unsupported encryption"
+msgstr "nem támogatott titkosítás"
+
+msgid "unsupported feature"
+msgstr "nem támogatott funkció"
+
+msgid "failed finding central directory"
+msgstr "nem sikerült megtalálni a központi könyvtárat"
+
+msgid "not a ZIP archive"
+msgstr "nem ZIP archívum"
+
+msgid "invalid header or corrupted"
+msgstr "érvénytelen fejléc vagy sérült"
+
+msgid "unsupported multidisk"
+msgstr "A RAID-re mentés nem támogatott."
+
+msgid "decompression failed"
+msgstr "sikertelen kicsomagolás"
+
+msgid "compression failed"
+msgstr "tömörítés sikertelen"
+
+msgid "unexpected decompressed size"
+msgstr "váratlan kitömörítési méret"
+
+msgid "CRC check failed"
+msgstr "CRC-ellenőrzés sikertelen"
+
+msgid "unsupported central directory size"
+msgstr "nem támogatott központi mappa méret"
+
+msgid "allocation failed"
+msgstr "sikertelen allokáció"
+
+msgid "file open failed"
+msgstr "fájl megnyitása sikertelen"
+
+msgid "file create failed"
+msgstr "fájl létrehozása sikertelen"
+
+msgid "file write failed"
+msgstr "fájl írása sikertelen"
+
+msgid "file read failed"
+msgstr "fájl olvasása sikertelen"
+
+msgid "file close failed"
+msgstr "fájl bezárása sikertelen"
+
+msgid "file seek failed"
+msgstr "fájl beolvasása sikertelen"
+
+msgid "file stat failed"
+msgstr "fájl stat sikertelen"
+
+msgid "invalid parameter"
+msgstr "érvénytelen paraméter"
+
+msgid "invalid filename"
+msgstr "érvénytelen fájlnév"
+
+msgid "buffer too small"
+msgstr "túl kicsi puffer"
+
+msgid "internal error"
+msgstr "belső hiba"
+
+msgid "file not found"
+msgstr "fájl nem található"
+
+msgid "archive too large"
+msgstr "archívum túl nagy"
+
+msgid "validation failed"
+msgstr "sikertelen érvényesítés"
+
+msgid "write callback failed"
+msgstr "írás callback sikertelen"
+
+#, boost-format
+msgid "%1% is too close to exclusion area, there may be collisions when printing."
+msgstr "%1% túl közel van a tiltott területhez, a nyomtatás során előfordulhatnak ütközések."
+
+#, boost-format
+msgid "%1% is too close to others, and collisions may be caused."
+msgstr "%1% túl közel van más tárgyakhoz, a nyomtatás során előfordulhatnak ütközések."
+
+#, boost-format
+msgid "%1% is too tall, and collisions will be caused."
+msgstr "%1% túl magas, a nyomtatás során előfordulhatnak ütközések."
+
+msgid " is too close to exclusion area, there may be collisions when printing."
+msgstr "túl közel van a tiltott területhez, a nyomtatás során előfordulhatnak ütközések."
+
+msgid " is too close to clumping detection area, there may be collisions when printing."
+msgstr ""
+
+msgid "Prime Tower"
+msgstr "Törlő torony"
+
+msgid " is too close to others, and collisions may be caused.\n"
+msgstr " túl közel van más tárgyakhoz, a nyomtatás során előfordulhatnak ütközések.\n"
+
+msgid " is too close to exclusion area, and collisions will be caused.\n"
+msgstr " túl közel van a tiltott területhez, a nyomtatás során előfordulhatnak ütközések.\n"
+
+msgid " is too close to clumping detection area, and collisions will be caused.\n"
+msgstr ""
+
+msgid "Printing high-temp and low-temp filaments together may cause nozzle clogging or printer damage."
+msgstr ""
+
+msgid ""
+"Printing high-temp and low-temp filaments together may cause nozzle clogging or printer damage. If you still want to print, you can enable the option in "
+"Preferences."
+msgstr ""
+
+msgid "Printing different-temp filaments together may cause nozzle clogging or printer damage."
+msgstr ""
+
+msgid "Printing high-temp and mid-temp filaments together may cause nozzle clogging or printer damage."
+msgstr ""
+
+msgid "Printing mid-temp and low-temp filaments together may cause nozzle clogging or printer damage."
+msgstr ""
+
+msgid "No extrusions under current settings."
+msgstr "A jelenlegi beállítások mellett nincsenek extrudálások."
+
+msgid "Smooth mode of timelapse is not supported when \"by object\" sequence is enabled."
+msgstr "A sima timelapse funkció nem használható, ha a nyomtatás „Tárgyanként“ sorrendre van állítva."
+
+msgid "Clumping detection is not supported when \"by object\" sequence is enabled."
+msgstr ""
+
+msgid "Prime tower is required for clumping detection; otherwise, there may be flaws on the model."
+msgstr ""
+
+msgid "Please select \"By object\" print sequence to print multiple objects in spiral vase mode."
+msgstr "Kérjük, válaszd a \"Tárgyanként\" nyomtatási sorrendet több tárgy spirálváza módban történő nyomtatásához."
+
+msgid "The spiral vase mode does not work when an object contains more than one materials."
+msgstr "A spirál (váza) mód nem működik, ha egy objektum egynél több anyagot tartalmaz."
+
+#, boost-format
+msgid "While the object %1% itself fits the build volume, it exceeds the maximum build volume height because of material shrinkage compensation."
+msgstr ""
+
+#, boost-format
+msgid "The object %1% exceeds the maximum build volume height."
+msgstr ""
+
+#, boost-format
+msgid "While the object %1% itself fits the build volume, its last layer exceeds the maximum build volume height."
+msgstr ""
+
+msgid "You might want to reduce the size of your model or change current print settings and retry."
+msgstr ""
+
+msgid "Variable layer height is not supported with Organic supports."
+msgstr "A változó rétegmagasság nem működik az organikus támaszokkal."
+
+msgid ""
+"Different nozzle diameters and different filament diameters may not work well when the prime tower is enabled. It's very experimental, so please proceed "
+"with caution."
+msgstr ""
+
+msgid "The Wipe Tower is currently only supported with the relative extruder addressing (use_relative_e_distances=1)."
+msgstr "A törlőtorony jelenleg csak relatív extruder címzéssel használható (use_relative_e_distances=1)."
+
+msgid "Ooze prevention is only supported with the wipe tower when 'single_extruder_multi_material' is off."
+msgstr ""
+
+msgid "The prime tower is currently only supported for the Marlin, RepRap/Sprinter, RepRapFirmware and Repetier G-code flavors."
+msgstr "A törlőtorony jelenleg csak a Marlin, RepRap/Sprinter, RepRapFirmware és Repetier G-kód szoftverekkel használható."
+
+msgid "The prime tower is not supported in \"By object\" print."
+msgstr ""
+
+msgid "The prime tower is not supported when adaptive layer height is on. It requires that all objects have the same layer height."
+msgstr ""
+
+msgid "The prime tower requires \"support gap\" to be multiple of layer height."
+msgstr ""
+
+msgid "The prime tower requires that all objects have the same layer heights."
+msgstr ""
+
+msgid "The prime tower requires that all objects are printed over the same number of raft layers."
+msgstr ""
+
+msgid "The prime tower is only supported for multiple objects if they are printed with the same support_top_z_distance."
+msgstr ""
+
+msgid "The prime tower requires that all objects are sliced with the same layer heights."
+msgstr ""
+
+msgid "The prime tower is only supported if all objects have the same variable layer height."
+msgstr "A törlőtorony használatához minden objektumnak azonos változó rétegmagassággal kell rendelkeznie."
+
+msgid "One or more object were assigned an extruder that the printer does not have."
+msgstr ""
+
+msgid "Too small line width"
+msgstr "Túl kicsi a vonalszélesség"
+
+msgid "Too large line width"
+msgstr "Túl nagy vonalszélesség"
+
+msgid ""
+"Printing with multiple extruders of differing nozzle diameters. If support is to be printed with the current filament (support_filament == 0 or "
+"support_interface_filament == 0), all nozzles have to be of the same diameter."
+msgstr ""
+
+msgid "The prime tower requires that support has the same layer height with object."
+msgstr "The prime tower requires that support has the same layer height as the object."
+
+msgid "Organic support tree tip diameter must not be smaller than support material extrusion width."
+msgstr ""
+
+msgid "Organic support branch diameter must not be smaller than 2x support material extrusion width."
+msgstr ""
+
+msgid "Organic support branch diameter must not be smaller than support tree tip diameter."
+msgstr ""
+
+msgid "Support enforcers are used but support is not enabled. Please enable support."
+msgstr "Támasz kényszerítőket használtál, de a támaszok nincsenek engedélyezve. Kérjük, engedélyezd a támaszokat."
+
+msgid "Layer height cannot exceed nozzle diameter."
+msgstr "A rétegmagasság nem lehet nagyobb a fúvóka átmérőjénél."
+
+msgid ""
+"Relative extruder addressing requires resetting the extruder position at each layer to prevent loss of floating point accuracy. Add \"G92 E0\" to "
+"layer_gcode."
+msgstr ""
+
+msgid "\"G92 E0\" was found in before_layer_gcode, which is incompatible with absolute extruder addressing."
+msgstr ""
+
+msgid "\"G92 E0\" was found in layer_gcode, which is incompatible with absolute extruder addressing."
+msgstr ""
+
+#, c-format, boost-format
+msgid "Plate %d: %s does not support filament %s"
+msgstr "%d. tálca: %s nem használható %s filamenttel."
+
+msgid "Setting the jerk speed too low could lead to artifacts on curved surfaces"
+msgstr ""
+
+msgid ""
+"The jerk setting exceeds the printer's maximum jerk (machine_max_jerk_x/machine_max_jerk_y).\n"
+"Orca will automatically cap the jerk speed to ensure it doesn't surpass the printer's capabilities.\n"
+"You can adjust the maximum jerk setting in your printer's configuration to get higher speeds."
+msgstr ""
+
+msgid ""
+"Junction deviation setting exceeds the printer's maximum value (machine_max_junction_deviation).\n"
+"Orca will automatically cap the junction deviation to ensure it doesn't surpass the printer's capabilities.\n"
+"You can adjust the machine_max_junction_deviation value in your printer's configuration to get higher limits."
+msgstr ""
+
+msgid ""
+"The acceleration setting exceeds the printer's maximum acceleration (machine_max_acceleration_extruding).\n"
+"Orca will automatically cap the acceleration speed to ensure it doesn't surpass the printer's capabilities.\n"
+"You can adjust the machine_max_acceleration_extruding value in your printer's configuration to get higher speeds."
+msgstr ""
+
+msgid ""
+"The travel acceleration setting exceeds the printer's maximum travel acceleration (machine_max_acceleration_travel).\n"
+"Orca will automatically cap the travel acceleration speed to ensure it doesn't surpass the printer's capabilities.\n"
+"You can adjust the machine_max_acceleration_travel value in your printer's configuration to get higher speeds."
+msgstr ""
+
+msgid "The precise wall option will be ignored for outer-inner or inner-outer-inner wall sequences."
+msgstr "A pontos fal opciót figyelmen kívül hagyja a külső-belső vagy a belső-külső-belső fal sorrend."
+
+msgid "Filament shrinkage will not be used because filament shrinkage for the used filaments differs significantly."
+msgstr "Az izzószál zsugorodása nem kerül alkalmazásra, mert a használt szálak zsugorodása jelentősen eltér."
+
+msgid "Generating skirt & brim"
+msgstr "Szoknya & perem generálása"
+
+msgid "Exporting G-code"
+msgstr "G-kód exportálása"
+
+msgid "Generating G-code"
+msgstr "G-kód generálása"
+
+msgid "Failed processing of the filename_format template."
+msgstr "Nem sikerült feldolgozni a fájlnév_formátum sablont."
+
+msgid "Printer technology"
+msgstr "Nyomtató technológia"
+
+msgid "Printable area"
+msgstr "Nyomtatható terület"
+
+msgid "Extruder printable area"
+msgstr ""
+
+msgid "Bed exclude area"
+msgstr "Asztal kizárási terület"
+
+msgid ""
+"Unprintable area in XY plane. For example, X1 Series printers use the front left corner to cut filament during filament change. The area is expressed as "
+"polygon by points in following format: \"XxY, XxY, ...\""
+msgstr ""
+"A nyomtatásra nem használható terület az XY síkban. Az X1 nyomtatók például a bal első sarkot használják a filament elvágására filamentcserét követően. A "
+"terület sokszögként van meghatározva a következő formátumban: XxY, XxY, ..."
+
+msgid "Bed custom texture"
+msgstr "Egyedi tárgyasztal textúra"
+
+msgid "Bed custom model"
+msgstr "Egyedi tárgyasztal modell"
+
+msgid "Elephant foot compensation"
+msgstr "Elefántláb kompenzáció"
+
+msgid "Shrinks the initial layer on build plate to compensate for elephant foot effect."
+msgstr "Zsugorítja a kezdőréteget a tárgyasztalon, hogy kompenzálja az elefántláb-hatást"
+
+msgid "Elephant foot compensation layers"
+msgstr ""
+
+msgid ""
+"The number of layers on which the elephant foot compensation will be active. The first layer will be shrunk by the elephant foot compensation value, then "
+"the next layers will be linearly shrunk less, up to the layer indicated by this value."
+msgstr ""
+
+msgid "layers"
+msgstr "réteg"
+
+msgid "Slicing height for each layer. Smaller layer height means more accurate and more printing time."
+msgstr "Az egyes rétegek szeletelési magassága. A kisebb rétegmagasság pontosabb nyomtatást és több időt jelent"
+
+msgid "Printable height"
+msgstr "Nyomtatási magasság"
+
+msgid "Maximum printable height which is limited by mechanism of printer."
+msgstr "Ez a maximális nyomtatható magasság, amelyet a nyomtatótér magassága korlátoz."
+
+msgid "Extruder printable height"
+msgstr ""
+
+msgid "Maximum printable height of this extruder which is limited by mechanism of printer."
+msgstr ""
+
+msgid "Preferred orientation"
+msgstr ""
+
+msgid "Automatically orient STL files on the Z axis upon initial import."
+msgstr ""
+
+msgid "Printer preset names"
+msgstr "Nyomtató beállítások neve"
+
+msgid "Use 3rd-party print host"
+msgstr ""
+
+msgid "Allow controlling BambuLab's printer through 3rd party print hosts."
+msgstr ""
+
+msgid "Hostname, IP or URL"
+msgstr "Hosztnév, IP vagy URL"
+
+msgid ""
+"Orca Slicer can upload G-code files to a printer host. This field should contain the hostname, IP address or URL of the printer host instance. Print host "
+"behind HAProxy with basic auth enabled can be accessed by putting the user name and password into the URL in the following format: https://"
+"username:password@your-octopi-address/"
+msgstr ""
+"A Orca Slicer képes G-kód fájlokat feltölteni a nyomtatóra. Ennek a mezőnek tartalmaznia kell a nyomtató hostnevét, IP-címét vagy URL-címét. A HAProxy "
+"mögött lévő nyomtató alapszintű hitelesítéssel érhető el, ha a felhasználónevet és a jelszót a következő formátumban beleírod az URL-be: https://"
+"username:password@your-octopi-address/"
+
+msgid "Device UI"
+msgstr "Eszköz UI"
+
+msgid "Specify the URL of your device user interface if it's not same as print_host."
+msgstr "Add meg az eszköz felhasználói felületének URL-címét, ha az nem azonos a print_host címével."
+
+msgid "API Key / Password"
+msgstr "API kulcs / jelszó"
+
+msgid "Orca Slicer can upload G-code files to a printer host. This field should contain the API Key or the password required for authentication."
+msgstr "A Orca Slicer képes G-kód fájlokat feltölteni a nyomtatóra. Ennek a mezőnek tartalmaznia kell a hitelesítéshez szükséges API-kulcsot vagy jelszót."
+
+msgid "Name of the printer."
+msgstr "A nyomtató neve"
+
+msgid "HTTPS CA File"
+msgstr "HTTPS CA fájl"
+
+msgid ""
+"Custom CA certificate file can be specified for HTTPS OctoPrint connections, in crt/pem format. If left blank, the default OS CA certificate repository is "
+"used."
+msgstr ""
+"A HTTP-alapú OctoPrint kapcsolatokhoz megadható egy egyedi CA-tanúsítvány, crt/pem formátumban. Ha üresen hagyod, az alapértelmezett OS CA tanúsítvány "
+"lesz használva."
+
+msgid "User"
+msgstr "Felhasználó"
+
+msgid "Password"
+msgstr "Jelszó"
+
+msgid "Ignore HTTPS certificate revocation checks"
+msgstr "A HTTPS-tanúsítvány visszavonás ellenőrzésének figyelmen kívül hagyása"
+
+msgid ""
+"Ignore HTTPS certificate revocation checks in case of missing or offline distribution points. One may want to enable this option for self signed "
+"certificates if connection fails."
+msgstr ""
+"Hiányzó vagy offline terjesztési pontok esetén figyelmen kívül hagyja a HTTPS-tanúsítványok visszavonásának ellenőrzését. Ez az opció akkor lehet "
+"segítségedre, ha nem sikerül csatlakoznod egy általad aláírt tanúsítvánnyal."
+
+msgid "Names of presets related to the physical printer."
+msgstr "A fizikai nyomtatóhoz kapcsolódó beállítások nevei"
+
+msgid "Authorization Type"
+msgstr "Hitelesítés típusa"
+
+msgid "API key"
+msgstr "API-kulcs"
+
+msgid "HTTP digest"
+msgstr "HTTP digest"
+
+msgid "Avoid crossing walls"
+msgstr "Kerülje a falak keresztezését"
+
+msgid "Detour to avoid traveling across walls, which may cause blobs on the surface."
+msgstr "Kerülje a falon keresztül való áthaladást, ami nyomot hagyhat a felületen"
+
+msgid "Avoid crossing walls - Max detour length"
+msgstr "Kerülje a falak keresztezését - Max kitérő hossza"
+
+msgid ""
+"Maximum detour distance for avoiding crossing wall. Don't detour if the detour distance is larger than this value. Detour length could be specified either "
+"as an absolute value or as percentage (for example 50%) of a direct travel path. Zero to disable."
+msgstr ""
+"A kitérő maximális hossza a fal keresztezésének elkerüléséhez: a nyomtató figyelmen kívül hagyja a kitérést, ha az ehhez szükséges távolság nagyobb, mint "
+"ez az érték. A kitérő megadható abszolút értékként vagy a közvetlen útvonal százalékában (például 50%). Állítsd az értéket 0-ra, ha ki szeretnéd kapcsolni "
+"ezt az opciót."
+
+msgid "mm or %"
+msgstr "mm vagy %"
+
+msgid "Other layers"
+msgstr "Többi réteg"
+
+msgid "Bed temperature for layers except the initial one. A value of 0 means the filament does not support printing on the Cool Plate SuperTack."
+msgstr ""
+
+msgid "Bed temperature for layers except the initial one. A value of 0 means the filament does not support printing on the Cool Plate."
+msgstr "Az asztal hőmérséklete a kezdőréteg kivételével. A 0 érték azt jelenti, hogy a filament nem támogatja a Cool Plate-re történő nyomtatást"
+
+msgid "Bed temperature for layers except the initial one. A value of 0 means the filament does not support printing on the Textured Cool Plate."
+msgstr ""
+
+msgid "Bed temperature for layers except the initial one. A value of 0 means the filament does not support printing on the Engineering Plate."
+msgstr "Az asztal hőmérséklete a kezdeti réteg kivételével. A 0 érték azt jelenti, hogy a szál nem támogatja az Engineering Plate-re történő nyomtatást"
+
+msgid "Bed temperature for layers except the initial one. A value of 0 means the filament does not support printing on the High Temp Plate."
+msgstr "Az asztal hőmérséklete a kezdeti réteg kivételével. A 0 érték azt jelenti, hogy a szál nem támogatja a High Temp Plate-re történő nyomtatást"
+
+msgid "Bed temperature for layers except the initial one. A value of 0 means the filament does not support printing on the Textured PEI Plate."
+msgstr "Asztalhőmérséklet az első réteg után. A 0 érték azt jelenti, hogy a filament nem támogatja texturált PEI tálcára történő nyomtatást."
+
+msgid "Initial layer"
+msgstr "Kezdőréteg"
+
+msgid "Initial layer bed temperature"
+msgstr "Első réteg asztalhőmérséklete"
+
+msgid "Bed temperature of the initial layer. A value of 0 means the filament does not support printing on the Cool Plate SuperTack."
+msgstr ""
+
+msgid "Bed temperature of the initial layer. A value of 0 means the filament does not support printing on the Cool Plate."
+msgstr "A kezdőréteg asztalhőmérséklete. A 0 érték azt jelenti, hogy a filament nem támogatja a Cool Plate-re történő nyomtatást"
+
+msgid "Bed temperature of the initial layer. A value of 0 means the filament does not support printing on the Textured Cool Plate."
+msgstr ""
+
+msgid "Bed temperature of the initial layer. A value of 0 means the filament does not support printing on the Engineering Plate."
+msgstr "A kezdőréteg asztalhőmérséklete. A 0 érték azt jelenti, hogy a filament nem támogatja a Engineering Plate-re történő nyomtatást"
+
+msgid "Bed temperature of the initial layer. A value of 0 means the filament does not support printing on the High Temp Plate."
+msgstr "A kezdőréteg asztalhőmérséklete. A 0 érték azt jelenti, hogy a filament nem támogatja a High Temp Plate-re történő nyomtatást"
+
+msgid "Bed temperature of the initial layer. A value of 0 means the filament does not support printing on the Textured PEI Plate."
+msgstr "Az első réteg asztalhőmérsékletének beállított 0 érték azt jelenti, hogy a filament nem támogatja texturált PEI tálcára történő nyomtatást."
+
+msgid "Bed types supported by the printer."
+msgstr "Nyomtató által támogatott asztaltípusok"
+
+msgid "Smooth Cool Plate"
+msgstr ""
+
+msgid "Smooth High Temp Plate"
+msgstr ""
+
+msgid "Default bed type"
+msgstr ""
+
+msgid "Default bed type for the printer (supports both numeric and string format)."
+msgstr ""
+
+msgid "First layer print sequence"
+msgstr "Az első réteg nyomtatási sorrendje"
+
+msgid "Other layers print sequence"
+msgstr ""
+
+msgid "The number of other layers print sequence"
+msgstr ""
+
+msgid "Other layers filament sequence"
+msgstr ""
+
+msgid "This G-code is inserted at every layer change before the Z lift."
+msgstr "Ez a G-kód minden rétegváltáshoz bekerül a Z tengely emelése előtt."
+
+msgid "Bottom shell layers"
+msgstr "Alsó héj rétegek"
+
+msgid ""
+"This is the number of solid layers of bottom shell, including the bottom surface layer. When the thickness calculated by this value is thinner than bottom "
+"shell thickness, the bottom shell layers will be increased."
+msgstr ""
+"Ez az alsó héj szilárd rétegeinek száma, beleértve az alsó felületi réteget is. Ha az ezzel az értékkel számított vastagság kisebb, mint az alsó héj "
+"vastagsága, akkor az alsó héj rétegei növekedni fognak"
+
+msgid "Bottom shell thickness"
+msgstr "Alsó héj vastagság"
+
+msgid ""
+"The number of bottom solid layers is increased when slicing if the thickness calculated by bottom shell layers is thinner than this value. This can avoid "
+"having too thin shell when layer height is small. 0 means that this setting is disabled and thickness of bottom shell is absolutely determined by bottom "
+"shell layers."
+msgstr ""
+"Az alsó szilárd rétegek száma szeleteléskor megnő, ha az alsó héjrétegek vastagsága kisebb ennél az értéknél. Ezzel elkerülhető, hogy túl vékony legyen a "
+"héj, ha a rétegmagasság kicsi. A 0 azt jelenti, hogy ez a beállítás ki van kapcsolva, és az alsó héj vastagságát egyszerűen az alsó héjrétegek száma "
+"határozza meg."
+
+msgid "Apply gap fill"
+msgstr ""
+
+msgid ""
+"Enables gap fill for the selected solid surfaces. The minimum gap length that will be filled can be controlled from the filter out tiny gaps option "
+"below.\n"
+"\n"
+"Options:\n"
+"1. Everywhere: Applies gap fill to top, bottom and internal solid surfaces for maximum strength\n"
+"2. Top and Bottom surfaces: Applies gap fill to top and bottom surfaces only, balancing print speed, reducing potential over extrusion in the solid infill "
+"and making sure the top and bottom surfaces have no pinhole gaps\n"
+"3. Nowhere: Disables gap fill for all solid infill areas\n"
+"\n"
+"Note that if using the classic perimeter generator, gap fill may also be generated between perimeters, if a full width line cannot fit between them. That "
+"perimeter gap fill is not controlled by this setting.\n"
+"\n"
+"If you would like all gap fill, including the classic perimeter generated one, removed, set the filter out tiny gaps value to a large number, like "
+"999999.\n"
+"\n"
+"However this is not advised, as gap fill between perimeters is contributing to the model's strength. For models where excessive gap fill is generated "
+"between perimeters, a better option would be to switch to the arachne wall generator and use this option to control whether the cosmetic top and bottom "
+"surface gap fill is generated."
+msgstr ""
+
+msgid "Everywhere"
+msgstr "Mindenhol"
+
+msgid "Top and bottom surfaces"
+msgstr ""
+
+msgid "Nowhere"
+msgstr ""
+
+msgid "Force cooling for overhangs and bridges"
+msgstr ""
+
+msgid ""
+"Enable this option to allow adjustment of the part cooling fan speed for specifically for overhangs, internal and external bridges. Setting the fan speed "
+"specifically for these features can improve overall print quality and reduce warping."
+msgstr ""
+
+msgid "Overhangs and external bridges fan speed"
+msgstr ""
+
+msgid ""
+"Use this part cooling fan speed when printing bridges or overhang walls with an overhang threshold that exceeds the value set in the 'Overhangs cooling "
+"threshold' parameter above. Increasing the cooling specifically for overhangs and bridges can improve the overall print quality of these features.\n"
+"\n"
+"Please note, this fan speed is clamped on the lower end by the minimum fan speed threshold set above. It is also adjusted upwards up to the maximum fan "
+"speed threshold when the minimum layer time threshold is not met."
+msgstr ""
+
+msgid "Overhang cooling activation threshold"
+msgstr ""
+
+#, no-c-format, no-boost-format
+msgid ""
+"When the overhang exceeds this specified threshold, force the cooling fan to run at the 'Overhang Fan Speed' set below. This threshold is expressed as a "
+"percentage, indicating the portion of each line's width that is unsupported by the layer beneath it. Setting this value to 0% forces the cooling fan to "
+"run for all outer walls, regardless of the overhang degree."
+msgstr ""
+
+msgid "External bridge infill direction"
+msgstr ""
+
+#, no-c-format, no-boost-format
+msgid ""
+"Bridging angle override. If left to zero, the bridging angle will be calculated automatically. Otherwise the provided angle will be used for external "
+"bridges. Use 180° for zero angle."
+msgstr ""
+"Az áthidalás szögének felülbírálása. A 0 érték azt jelenti, hogy az áthidalás szöge automatikusan kerül kiszámításra. Máskülönben a megadott érték kerül "
+"alkalmazásra. Ha az áthidalást a falakkal párhuzamosra szeretnéd állítani, használj 180°-os értéket."
+
+msgid "Internal bridge infill direction"
+msgstr ""
+
+msgid ""
+"Internal bridging angle override. If left to zero, the bridging angle will be calculated automatically. Otherwise the provided angle will be used for "
+"internal bridges. Use 180° for zero angle.\n"
+"\n"
+"It is recommended to leave it at 0 unless there is a specific model need not to."
+msgstr ""
+
+msgid "External bridge density"
+msgstr ""
+
+msgid ""
+"Controls the density (spacing) of external bridge lines. 100% means solid bridge. Default is 100%.\n"
+"\n"
+"Lower density external bridges can help improve reliability as there is more space for air to circulate around the extruded bridge, improving its cooling "
+"speed."
+msgstr ""
+
+msgid "Internal bridge density"
+msgstr ""
+
+msgid ""
+"Controls the density (spacing) of internal bridge lines. 100% means solid bridge. Default is 100%.\n"
+"\n"
+"Lower density internal bridges can help reduce top surface pillowing and improve internal bridge reliability as there is more space for air to circulate "
+"around the extruded bridge, improving its cooling speed.\n"
+"\n"
+"This option works particularly well when combined with the second internal bridge over infill option, further improving internal bridging structure before "
+"solid infill is extruded."
+msgstr ""
+
+msgid "Bridge flow ratio"
+msgstr "Áthidalás áramlási sebessége"
+
+msgid ""
+"Decrease this value slightly (for example 0.9) to reduce the amount of material for bridge, to improve sag.\n"
+"\n"
+"The actual bridge flow used is calculated by multiplying this value with the filament flow ratio, and if set, the object's flow ratio."
+msgstr ""
+
+msgid "Internal bridge flow ratio"
+msgstr ""
+
+msgid ""
+"This value governs the thickness of the internal bridge layer. This is the first layer over sparse infill. Decrease this value slightly (for example 0.9) "
+"to improve surface quality over sparse infill.\n"
+"\n"
+"The actual internal bridge flow used is calculated by multiplying this value with the bridge flow ratio, the filament flow ratio, and if set, the object's "
+"flow ratio."
+msgstr ""
+
+msgid "Top surface flow ratio"
+msgstr "Felső felület anyagáramlása"
+
+msgid ""
+"This factor affects the amount of material for top solid infill. You can decrease it slightly to have smooth surface finish.\n"
+"\n"
+"The actual top surface flow used is calculated by multiplying this value with the filament flow ratio, and if set, the object's flow ratio."
+msgstr ""
+
+msgid "Bottom surface flow ratio"
+msgstr ""
+
+msgid ""
+"This factor affects the amount of material for bottom solid infill.\n"
+"\n"
+"The actual bottom solid infill flow used is calculated by multiplying this value with the filament flow ratio, and if set, the object's flow ratio."
+msgstr ""
+
+msgid "Set other flow ratios"
+msgstr ""
+
+msgid "Change flow ratios for other extrusion path types."
+msgstr ""
+
+msgid "First layer flow ratio"
+msgstr ""
+
+msgid ""
+"This factor affects the amount of material on the first layer for the extrusion path roles listed in this section.\n"
+"\n"
+"For the first layer, the actual flow ratio for each path role (does not affect brims and skirts) will be multiplied by this value."
+msgstr ""
+
+msgid "Outer wall flow ratio"
+msgstr ""
+
+msgid ""
+"This factor affects the amount of material for outer walls.\n"
+"\n"
+"The actual outer wall flow used is calculated by multiplying this value by the filament flow ratio, and if set, the object's flow ratio."
+msgstr ""
+
+msgid "Inner wall flow ratio"
+msgstr ""
+
+msgid ""
+"This factor affects the amount of material for inner walls.\n"
+"\n"
+"The actual inner wall flow used is calculated by multiplying this value by the filament flow ratio, and if set, the object's flow ratio."
+msgstr ""
+
+msgid "Overhang flow ratio"
+msgstr ""
+
+msgid ""
+"This factor affects the amount of material for overhangs.\n"
+"\n"
+"The actual overhang flow used is calculated by multiplying this value by the filament flow ratio, and if set, the object's flow ratio."
+msgstr ""
+
+msgid "Sparse infill flow ratio"
+msgstr ""
+
+msgid ""
+"This factor affects the amount of material for sparse infill.\n"
+"\n"
+"The actual sparse infill flow used is calculated by multiplying this value by the filament flow ratio, and if set, the object's flow ratio."
+msgstr ""
+
+msgid "Internal solid infill flow ratio"
+msgstr ""
+
+msgid ""
+"This factor affects the amount of material for internal solid infill.\n"
+"\n"
+"The actual internal solid infill flow used is calculated by multiplying this value by the filament flow ratio, and if set, the object's flow ratio."
+msgstr ""
+
+msgid "Gap fill flow ratio"
+msgstr ""
+
+msgid ""
+"This factor affects the amount of material for filling the gaps.\n"
+"\n"
+"The actual gap filling flow used is calculated by multiplying this value by the filament flow ratio, and if set, the object's flow ratio."
+msgstr ""
+
+msgid "Support flow ratio"
+msgstr ""
+
+msgid ""
+"This factor affects the amount of material for support.\n"
+"\n"
+"The actual support flow used is calculated by multiplying this value by the filament flow ratio, and if set, the object's flow ratio."
+msgstr ""
+
+msgid "Support interface flow ratio"
+msgstr ""
+
+msgid ""
+"This factor affects the amount of material for the support interface.\n"
+"\n"
+"The actual support interface flow used is calculated by multiplying this value by the filament flow ratio, and if set, the object's flow ratio."
+msgstr ""
+
+msgid "Precise wall"
+msgstr "Precíz fal"
+
+msgid ""
+"Improve shell precision by adjusting outer wall spacing. This also improves layer consistency. NOTE: This option will be ignored for outer-inner or inner-"
+"outer-inner wall sequences."
+msgstr ""
+
+msgid "Only one wall on top surfaces"
+msgstr "Csak egy fal a felső felületeken"
+
+msgid "Use only one wall on flat top surfaces, to give more space to the top infill pattern."
+msgstr "Csak egy falat használ a sík felső felületeken, hogy több hely maradjon a felső kitöltési mintának"
+
+msgid "One wall threshold"
+msgstr "Egy fal küszöb"
+
+#, no-c-format, no-boost-format
+msgid ""
+"If a top surface has to be printed and it's partially covered by another layer, it won't be considered at a top layer where its width is below this value. "
+"This can be useful to not let the 'one perimeter on top' trigger on surface that should be covered only by perimeters. This value can be a mm or a % of "
+"the perimeter extrusion width.\n"
+"Warning: If enabled, artifacts can be created if you have some thin features on the next layer, like letters. Set this setting to 0 to remove these "
+"artifacts."
+msgstr ""
+"Ha egy felső felületet nyomtatni kell, és részben egy másik réteg fedi, akkor a felső rétegnél nem veszik figyelembe.ahol a szélessége ez alatt az érték "
+"alatt van. Ez hasznos lehet, ha nem engedi, hogy az \"egy kerület a tetején\" aktiválódjon a felületen, hogy csak a kerületek fedhetik le. Ez az érték "
+"lehet egy mm vagy a kerület kihúzási szélességének %-a.\n"
+"Figyelmeztetés: Ha engedélyezve van, akkor műtermékek hozhatók létre, ha a következő rétegen van néhány vékony elem, például betűk. Állítsa be ezt 0-ra "
+"állítva ezeket a műtermékeket."
+
+msgid "Only one wall on first layer"
+msgstr "Csak egy fal az első rétegen"
+
+msgid "Use only one wall on first layer, to give more space to the bottom infill pattern."
+msgstr "Az első rétegen csak egy falat használjon, hogy több hely legyen az alsó kitöltési mintának."
+
+msgid "Extra perimeters on overhangs"
+msgstr "Extra kerületek a túlnyúlásokon"
+
+msgid "Create additional perimeter paths over steep overhangs and areas where bridges cannot be anchored."
+msgstr "Meredek túlnyúlások és olyan területek felett, ahol a hidak nem rögzíthetők, további kerületi utakat kell létrehozni."
+
+msgid "Reverse on even"
+msgstr "Párosakat fordít"
+
+msgid "Overhang reversal"
+msgstr "Túlnyúlás visszafordítása"
+
+msgid ""
+"Extrude perimeters that have a part over an overhang in the reverse direction on even layers. This alternating pattern can drastically improve steep "
+"overhangs.\n"
+"\n"
+"This setting can also help reduce part warping due to the reduction of stresses in the part walls."
+msgstr ""
+
+msgid "Reverse only internal perimeters"
+msgstr "Csak belső kerületek megfordítása"
+
+msgid ""
+"Apply the reverse perimeters logic only on internal perimeters.\n"
+"\n"
+"This setting greatly reduces part stresses as they are now distributed in alternating directions. This should reduce part warping while also maintaining "
+"external wall quality. This feature can be very useful for warp prone material, like ABS/ASA, and also for elastic filaments, like TPU and Silk PLA. It "
+"can also help reduce warping on floating regions over supports.\n"
+"\n"
+"For this setting to be the most effective, it is recommended to set the Reverse Threshold to 0 so that all internal walls print in alternating directions "
+"on even layers irrespective of their overhang degree."
+msgstr "A fordított kerületi logikát csak belső kerületekre alkalmazza."
+
+msgid "Bridge counterbore holes"
+msgstr "Híd süllyesztett furatok"
+
+msgid ""
+"This option creates bridges for counterbore holes, allowing them to be printed without support. Available modes include:\n"
+"1. None: No bridge is created\n"
+"2. Partially Bridged: Only a part of the unsupported area will be bridged\n"
+"3. Sacrificial Layer: A full sacrificial bridge layer is created"
+msgstr ""
+
+msgid "Partially bridged"
+msgstr ""
+
+msgid "Sacrificial layer"
+msgstr ""
+
+msgid "Reverse threshold"
+msgstr ""
+
+msgid "Overhang reversal threshold"
+msgstr ""
+
+#, no-c-format, no-boost-format
+msgid ""
+"Number of mm the overhang need to be for the reversal to be considered useful. Can be a % of the perimeter width.\n"
+"Value 0 enables reversal on every even layers regardless.\n"
+"When Detect overhang wall is not enabled, this option is ignored and reversal happens on every even layers regardless."
+msgstr ""
+
+msgid "Slow down for overhang"
+msgstr "Lassítás túlnyúlásoknál"
+
+msgid "Enable this option to slow printing down for different overhang degree."
+msgstr "Engedélyezd ezt az opciót a nyomtatási sebesség lassításához különböző túlnyúlási szögeknél"
+
+msgid "Slow down for curled perimeters"
+msgstr ""
+
+#, no-c-format, no-boost-format
+msgid ""
+"Enable this option to slow down printing in areas where perimeters may have curled upwards. For example, additional slowdown will be applied when printing "
+"overhangs on sharp corners like the front of the Benchy hull, reducing curling which compounds over multiple layers.\n"
+"\n"
+"It is generally recommended to have this option switched on unless your printer cooling is powerful enough or the print speed slow enough that perimeter "
+"curling does not happen. If printing with a high external perimeter speed, this parameter may introduce slight artifacts when slowing down due to the "
+"large variance in print speeds. If you notice artifacts, ensure your pressure advance is tuned correctly.\n"
+"\n"
+"Note: When this option is enabled, overhang perimeters are treated like overhangs, meaning the overhang speed is applied even if the overhanging perimeter "
+"is part of a bridge. For example, when the perimeters are 100% overhanging, with no wall supporting them from underneath, the 100% overhang speed will be "
+"applied."
+msgstr ""
+
+msgid "mm/s or %"
+msgstr "mm/s vagy %"
+
+msgid ""
+"Speed of the externally visible bridge extrusions.\n"
+"\n"
+"In addition, if Slow down for curled perimeters is disabled or Classic overhang mode is enabled, it will be the print speed of overhang walls that are "
+"supported by less than 13%, whether they are part of a bridge or an overhang."
+msgstr ""
+
+msgid "Internal"
+msgstr ""
+
+msgid "Speed of internal bridges. If the value is expressed as a percentage, it will be calculated based on the bridge_speed. Default value is 150%."
+msgstr ""
+
+msgid "Brim width"
+msgstr "Perem szélessége"
+
+msgid "Distance from model to the outermost brim line."
+msgstr "A modell és a legkülső peremvonal közötti távolság"
+
+msgid "Brim type"
+msgstr "Perem típusa"
+
+msgid "This controls the generation of the brim at outer and/or inner side of models. Auto means the brim width is analyzed and calculated automatically."
+msgstr ""
+
+msgid "Brim-object gap"
+msgstr "Perem-tárgy közötti rés"
+
+msgid "A gap between innermost brim line and object can make brim be removed more easily."
+msgstr "A legbelső peremvonal és a tárgy közötti rés, ami megkönnyítheti a perem eltávolítását"
+
+msgid "Brim ears"
+msgstr "Karimás fülek"
+
+msgid "Only draw brim over the sharp edges of the model."
+msgstr ""
+
+msgid "Brim ear max angle"
+msgstr ""
+
+msgid ""
+"Maximum angle to let a brim ear appear.\n"
+"If set to 0, no brim will be created.\n"
+"If set to ~180, brim will be created on everything but straight sections."
+msgstr ""
+
+msgid "Brim ear detection radius"
+msgstr ""
+
+msgid ""
+"The geometry will be decimated before detecting sharp angles. This parameter indicates the minimum length of the deviation for the decimation.\n"
+"0 to deactivate."
+msgstr ""
+
+msgid "Select printers"
+msgstr ""
+
+msgid "upward compatible machine"
+msgstr "felfelé kompatibilis gép"
+
+msgid "Condition"
+msgstr ""
+
+msgid ""
+"A boolean expression using the configuration values of an active printer profile. If this expression evaluates to true, this profile is considered "
+"compatible with the active printer profile."
+msgstr ""
+"Logikai kifejezés, amely egy aktív nyomtatóprofil konfigurációs értékeit használja. Ha ez a kifejezés igaz, akkor ez a profil kompatibilis az aktív "
+"nyomtatóprofillal."
+
+msgid "Select profiles"
+msgstr ""
+
+msgid ""
+"A boolean expression using the configuration values of an active print profile. If this expression evaluates to true, this profile is considered "
+"compatible with the active print profile."
+msgstr ""
+"Logikai kifejezés, amely egy aktív nyomtatási profil konfigurációs értékeit használja. Ha ez a kifejezés igaz, akkor ez a profil kompatibilis az aktív "
+"nyomtatási profillal."
+
+msgid "Print sequence, layer by layer or object by object."
+msgstr "Nyomtatási sorrend, rétegenként vagy tárgyanként"
+
+msgid "By layer"
+msgstr "Rétegenként"
+
+msgid "By object"
+msgstr "Tárgyanként"
+
+msgid "Intra-layer order"
+msgstr ""
+
+msgid "Print order within a single layer."
+msgstr ""
+
+msgid "As object list"
+msgstr ""
+
+msgid "Slow printing down for better layer cooling"
+msgstr "Nyomtatás lelassítása a jobb hűtés érdekében"
+
+msgid ""
+"Enable this option to slow printing speed down to make the final layer time not shorter than the layer time threshold in \"Max fan speed threshold\", so "
+"that layer can be cooled for longer time. This can improve the cooling quality for needle and small details."
+msgstr ""
+"Engedélyezd ezt az opciót a nyomtatási sebesség lassításához, hogy a rétegidő ne lehessen kevesebb, mint a \"Max. ventilátor fordulatszám\"-nál megadott "
+"küszöbérték.\n"
+"Ezáltal a rétegnek több ideje marad visszahűlni és javulhat a kisebb részletek nyomtatási minősége"
+
+msgid "Normal printing"
+msgstr "Normál nyomtatás"
+
+msgid "The default acceleration of both normal printing and travel except initial layer."
+msgstr "Ez az alapértelmezett gyorsulás mind a normál nyomtatáshoz, mind az első réteg utáni mozgáshoz."
+
+msgid "Default filament profile"
+msgstr "Alapértelmezett filament profil"
+
+msgid "Default filament profile when switching to this machine profile."
+msgstr "Alapértelmezett filament profil, ha erre a gép profilra váltasz"
+
+msgid "Default process profile"
+msgstr "Alapértelmezett folyamat profil"
+
+msgid "Default process profile when switching to this machine profile."
+msgstr "Alapértelmezett folyamat profil, ha erre a gép profilra váltasz"
+
+msgid "Activate air filtration"
+msgstr ""
+
+msgid "Activate for better air filtration. G-code command: M106 P3 S(0-255)"
+msgstr ""
+
+msgid "Fan speed"
+msgstr "Ventilátor fordulatszám"
+
+msgid "Speed of exhaust fan during printing. This speed will override the speed in filament custom G-code."
+msgstr "Az elszívó ventilátor sebessége nyomtatás közben: ez a sebesség felülírja a sebességet a filament egyéni G-kódjában."
+
+msgid "Speed of exhaust fan after printing completes."
+msgstr ""
+
+msgid "No cooling for the first"
+msgstr "Nincs hűtés az első"
+
+msgid "Turn off all cooling fans for the first few layers. This can be used to improve build plate adhesion."
+msgstr "Kikapcsolja a hűtést a megadott első pár rétegnél. A hűtés kikapcsolása segítheti a jobb tárgyasztalhoz való tapadást"
+
+msgid "Don't support bridges"
+msgstr "Ne támassza alá az áthidalásokat"
+
+msgid "Don't support the whole bridge area which make support very large. Bridges can usually be printed directly without support if not very long."
+msgstr "Nem támasztja alá az áthidalásokat, ezáltal támaszanyagot spórolva. Az áthidalások általában támasz nélkül is jól nyomtathatók, ha nem túl hosszúak"
+
+msgid "Thick external bridges"
+msgstr ""
+
+msgid ""
+"If enabled, bridges are more reliable, can bridge longer distances, but may look worse. If disabled, bridges look better but are reliable just for shorter "
+"bridged distances."
+msgstr ""
+"Ha engedélyezve van, az áthidalások megbízhatóbbak, nagyobb távolságokat tudnak áthidalni, de rosszabbul nézhetnek ki.\n"
+"Ha ki van kapcsolva, az áthidalások jobban néznek ki, de csak a rövidebb áthidalt távolságokon megbízhatóak."
+
+msgid "Thick internal bridges"
+msgstr ""
+
+msgid ""
+"If enabled, thick internal bridges will be used. It's usually recommended to have this feature turned on. However, consider turning it off if you are "
+"using large nozzles."
+msgstr ""
+
+msgid "Extra bridge layers (beta)"
+msgstr ""
+
+msgid ""
+"This option enables the generation of an extra bridge layer over internal and/or external bridges.\n"
+"\n"
+"Extra bridge layers help improve bridge appearance and reliability, as the solid infill is better supported. This is especially useful in fast printers, "
+"where the bridge and solid infill speeds vary greatly. The extra bridge layer results in reduced pillowing on top surfaces, as well as reduced separation "
+"of the external bridge layer from its surrounding perimeters.\n"
+"\n"
+"It is generally recommended to set this to at least 'External bridge only', unless specific issues with the sliced model are found.\n"
+"\n"
+"Options:\n"
+"1. Disabled - does not generate second bridge layers. This is the default and is set for compatibility purposes\n"
+"2. External bridge only - generates second bridge layers for external-facing bridges only. Please note that small bridges that are shorter or narrower "
+"than the set number of perimeters will be skipped as they would not benefit from a second bridge layer. If generated, the second bridge layer will be "
+"extruded parallel to the first bridge layer to reinforce the bridge strength\n"
+"3. Internal bridge only - generates second bridge layers for internal bridges over sparse infill only. Please note that the internal bridges count towards "
+"the top shell layer count of your model. The second internal bridge layer will be extruded as close to perpendicular to the first as possible. If multiple "
+"regions in the same island, with varying bridge angles are present, the last region of that island will be selected as the angle reference\n"
+"4. Apply to all - generates second bridge layers for both internal and external-facing bridges\n"
+msgstr ""
+
+msgid "Disabled"
+msgstr "Letiltva"
+
+msgid "External bridge only"
+msgstr ""
+
+msgid "Internal bridge only"
+msgstr ""
+
+msgid "Apply to all"
+msgstr ""
+
+msgid "Filter out small internal bridges"
+msgstr ""
+
+msgid ""
+"This option can help reduce pillowing on top surfaces in heavily slanted or curved models.\n"
+"By default, small internal bridges are filtered out and the internal solid infill is printed directly over the sparse infill. This works well in most "
+"cases, speeding up printing without too much compromise on top surface quality.\n"
+"However, in heavily slanted or curved models, especially where too low a sparse infill density is used, this may result in curling of the unsupported "
+"solid infill, causing pillowing.\n"
+"Enabling limited filtering or no filtering will print internal bridge layer over slightly unsupported internal solid infill. The options below control the "
+"sensitivity of the filtering, i.e. they control where internal bridges are created:\n"
+"1. Filter - enables this option. This is the default behavior and works well in most cases\n"
+"2. Limited filtering - creates internal bridges on heavily slanted surfaces while avoiding unnecessary bridges. This works well for most difficult models\n"
+"3. No filtering - creates internal bridges on every potential internal overhang. This option is useful for heavily slanted top surface models; however, in "
+"most cases, it creates too many unnecessary bridges"
+msgstr ""
+
+msgid "Limited filtering"
+msgstr ""
+
+msgid "No filtering"
+msgstr ""
+
+msgid "Max bridge length"
+msgstr "Maximum áthidalás hossza"
+
+msgid ""
+"Max length of bridges that don't need support. Set it to 0 if you want all bridges to be supported, and set it to a very large value if you don't want any "
+"bridges to be supported."
+msgstr ""
+"Ez a maximális hossza azoknak az áthidalásoknak, amelyeknek nincs szükségük alátámasztásra. Állítsd 0-ra, ha azt szeretnéd, hogy minden áthidalás alá "
+"legyen támasztva, vagy állítsd egy nagyon nagy értékre, ha azt szeretnéd, hogy egyetlen áthidalás se legyen alátámasztva."
+
+msgid "End G-code"
+msgstr "Befejező G-kód"
+
+msgid "End G-code when finishing the entire print."
+msgstr "Befejező G-kód az egész nyomtatás befejezésekor"
+
+msgid "Between Object G-code"
+msgstr "Objektumok közötti G-kód"
+
+msgid "Insert G-code between objects. This parameter will only come into effect when you print your models object by object."
+msgstr "A tárgyak nyomtatása között használt G-kód. Ez a paraméter csak akkor működik, ha a nyomtatás tárgyankénti sorrendben történik."
+
+msgid "End G-code when finishing the printing of this filament."
+msgstr "Befejező G-kód a filament nyomtatásának befejezésekor"
+
+msgid "Ensure vertical shell thickness"
+msgstr "Függőleges héjvastagság biztosítása"
+
+msgid ""
+"Add solid infill near sloping surfaces to guarantee the vertical shell thickness (top+bottom solid layers)\n"
+"None: No solid infill will be added anywhere. Caution: Use this option carefully if your model has sloped surfaces\n"
+"Critical Only: Avoid adding solid infill for walls\n"
+"Moderate: Add solid infill for heavily sloping surfaces only\n"
+"All: Add solid infill for all suitable sloping surfaces\n"
+"Default value is All."
+msgstr ""
+
+msgid "Critical Only"
+msgstr ""
+
+msgid "Moderate"
+msgstr ""
+
+msgid "Top surface pattern"
+msgstr "Felső felület mintázata"
+
+msgid "Line pattern of top surface infill."
+msgstr "Ez a felső felület kitöltésének mintája."
+
+msgid "Monotonic"
+msgstr "Monotonikus"
+
+msgid "Monotonic line"
+msgstr "Monotonikus vonal"
+
+msgid "Rectilinear"
+msgstr "Vonalak"
+
+msgid "Aligned Rectilinear"
+msgstr "Igazított vonal"
+
+msgid "Concentric"
+msgstr "Koncentrikus"
+
+msgid "Hilbert Curve"
+msgstr "Hilbert-görbe"
+
+msgid "Archimedean Chords"
+msgstr "Archimédeszi vonalak"
+
+msgid "Octagram Spiral"
+msgstr "Nyolcágú spirál"
+
+msgid "Bottom surface pattern"
+msgstr "Alsó felület mintázata"
+
+msgid "Line pattern of bottom surface infill, not bridge infill."
+msgstr "Ez az alsó felület kitöltésének mintája, kivéve az áthidalásokat."
+
+msgid "Internal solid infill pattern"
+msgstr "Belső tömör kitöltés mintája"
+
+msgid "Line pattern of internal solid infill. if the detect narrow internal solid infill be enabled, the concentric pattern will be used for the small area."
+msgstr ""
+
+msgid "Line width of outer wall. If expressed as a %, it will be computed over the nozzle diameter."
+msgstr ""
+
+msgid "Speed of outer wall which is outermost and visible. It's used to be slower than inner wall speed to get better quality."
+msgstr "A legkülső látható fal sebessége. A jobb minőség érdekében ez lassabb, mint a belső fal sebessége."
+
+msgid "Small perimeters"
+msgstr "Kis peremek"
+
+msgid ""
+"This separate setting will affect the speed of perimeters having radius <= small_perimeter_threshold (usually holes). If expressed as percentage (for "
+"example: 80%) it will be calculated on the outer wall speed setting above. Set to zero for auto."
+msgstr ""
+
+msgid "Small perimeters threshold"
+msgstr ""
+
+msgid "This sets the threshold for small perimeter length. Default threshold is 0mm."
+msgstr "A kis peremek hosszának küszöbértékét határozza meg. Az alapértelmezett érték 0 mm"
+
+msgid "Walls printing order"
+msgstr ""
+
+msgid ""
+"Print sequence of the internal (inner) and external (outer) walls.\n"
+"\n"
+"Use Inner/Outer for best overhangs. This is because the overhanging walls can adhere to a neighbouring perimeter while printing. However, this option "
+"results in slightly reduced surface quality as the external perimeter is deformed by being squashed to the internal perimeter.\n"
+"\n"
+"Use Inner/Outer/Inner for the best external surface finish and dimensional accuracy as the external wall is printed undisturbed from an internal "
+"perimeter. However, overhang performance will reduce as there is no internal perimeter to print the external wall against. This option requires a minimum "
+"of 3 walls to be effective as it prints the internal walls from the 3rd perimeter onwards first, then the external perimeter and, finally, the first "
+"internal perimeter. This option is recommended against the Outer/Inner option in most cases.\n"
+"\n"
+"Use Outer/Inner for the same external wall quality and dimensional accuracy benefits of Inner/Outer/Inner option. However, the Z seams will appear less "
+"consistent as the first extrusion of a new layer starts on a visible surface."
+msgstr ""
+
+msgid "Inner/Outer"
+msgstr ""
+
+msgid "Outer/Inner"
+msgstr ""
+
+msgid "Inner/Outer/Inner"
+msgstr ""
+
+msgid "Print infill first"
+msgstr "Kitöltés a falak előtt"
+
+msgid ""
+"Order of wall/infill. When the tickbox is unchecked the walls are printed first, which works best in most cases.\n"
+"\n"
+"Printing infill first may help with extreme overhangs as the walls have the neighbouring infill to adhere to. However, the infill will slightly push out "
+"the printed walls where it is attached to them, resulting in a worse external surface finish. It can also cause the infill to shine through the external "
+"surfaces of the part."
+msgstr ""
+
+msgid "Wall loop direction"
+msgstr ""
+
+msgid ""
+"The direction which the wall loops are extruded when looking down from the top.\n"
+"\n"
+"By default all walls are extruded in counter-clockwise, unless Reverse on even is enabled. Set this to any option other than Auto will force the wall "
+"direction regardless of the Reverse on even.\n"
+"\n"
+"This option will be disabled if spiral vase mode is enabled."
+msgstr ""
+
+msgid "Counter clockwise"
+msgstr ""
+
+msgid "Clockwise"
+msgstr ""
+
+msgid "Height to rod"
+msgstr "Magasság a rúdig"
+
+msgid "Distance of the nozzle tip to the lower rod. Used for collision avoidance in by-object printing."
+msgstr "A fúvóka hegye és az alsó rúd közötti távolság. Objektumonként történő nyomtatás során az ütközések elkerülésére szolgál."
+
+msgid "Height to lid"
+msgstr "Magasság a fedélig"
+
+msgid "Distance of the nozzle tip to the lid. Used for collision avoidance in by-object printing."
+msgstr "A fúvóka hegye és a fedél közötti távolság. Objektumonként történő nyomtatás során az ütközések elkerülésére szolgál."
+
+msgid "Clearance radius around extruder. Used for collision avoidance in by-object printing."
+msgstr "Az extruder körüli szabadon hagyott terület sugara. Objektumonként történő nyomtatás során az ütközések elkerülésére szolgál."
+
+msgid "Nozzle height"
+msgstr "Fúvóka magassága"
+
+msgid "The height of nozzle tip."
+msgstr "A fúvókacsúcs magassága."
+
+msgid "Bed mesh min"
+msgstr ""
+
+msgid ""
+"This option sets the min point for the allowed bed mesh area. Due to the probe's XY offset, most printers are unable to probe the entire bed. To ensure "
+"the probe point does not go outside the bed area, the minimum and maximum points of the bed mesh should be set appropriately. OrcaSlicer ensures that "
+"adaptive_bed_mesh_min/adaptive_bed_mesh_max values do not exceed these min/max points. This information can usually be obtained from your printer "
+"manufacturer. The default setting is (-99999, -99999), which means there are no limits, thus allowing probing across the entire bed."
+msgstr ""
+
+msgid "Bed mesh max"
+msgstr ""
+
+msgid ""
+"This option sets the max point for the allowed bed mesh area. Due to the probe's XY offset, most printers are unable to probe the entire bed. To ensure "
+"the probe point does not go outside the bed area, the minimum and maximum points of the bed mesh should be set appropriately. OrcaSlicer ensures that "
+"adaptive_bed_mesh_min/adaptive_bed_mesh_max values do not exceed these min/max points. This information can usually be obtained from your printer "
+"manufacturer. The default setting is (99999, 99999), which means there are no limits, thus allowing probing across the entire bed."
+msgstr ""
+
+msgid "Probe point distance"
+msgstr ""
+
+msgid "This option sets the preferred distance between probe points (grid size) for the X and Y directions, with the default being 50mm for both X and Y."
+msgstr ""
+
+msgid "Mesh margin"
+msgstr ""
+
+msgid "This option determines the additional distance by which the adaptive bed mesh area should be expanded in the XY directions."
+msgstr ""
+
+msgid "Grab length"
+msgstr ""
+
+msgid "Extruder Color"
+msgstr "Extruder szín"
+
+msgid "Only used as a visual help on UI."
+msgstr "Csak vizuális segédként használatos a felhasználói felületen"
+
+msgid "Extruder offset"
+msgstr "Extruder offszet"
+
+msgid "Flow ratio"
+msgstr "Anyagáramlás"
+
+msgid ""
+"The material may have volumetric change after switching between molten and crystalline states. This setting changes all extrusion flow of this filament in "
+"G-code proportionally. The recommended value range is between 0.95 and 1.05. You may be able to tune this value to get a nice flat surface if there is "
+"slight overflow or underflow."
+msgstr ""
+"Az anyag térfogata megváltozhat az olvadt és a kristályos állapot közötti átmenet során. Ez a beállítás arányosan megváltoztatja az anyagáramlást a G-"
+"kódban. Az ajánlott értéktartomány 0,95 és 1,05 között van. Ennek az értéknek a változtatásával szép sík felületet kaphatsz, ha úgy tapasztalod, hogy túl "
+"sok vagy kevés az anyagáramlás."
+
+msgid ""
+"The material may have volumetric change after switching between molten and crystalline states. This setting changes all extrusion flow of this filament in "
+"G-code proportionally. The recommended value range is between 0.95 and 1.05. You may be able to tune this value to get a nice flat surface if there is "
+"slight overflow or underflow.\n"
+"\n"
+"The final object flow ratio is this value multiplied by the filament flow ratio."
+msgstr ""
+
+msgid "Enable pressure advance"
+msgstr "Nyomáselőtolás engedélyezése"
+
+msgid "Enable pressure advance, auto calibration result will be overwritten once enabled."
+msgstr ""
+
+msgid "Pressure advance (Klipper) AKA Linear advance factor (Marlin)."
+msgstr ""
+
+msgid "Enable adaptive pressure advance (beta)"
+msgstr ""
+
+#, no-c-format, no-boost-format
+msgid ""
+"With increasing print speeds (and hence increasing volumetric flow through the nozzle) and increasing accelerations, it has been observed that the "
+"effective PA value typically decreases. This means that a single PA value is not always 100% optimal for all features and a compromise value is usually "
+"used that does not cause too much bulging on features with lower flow speed and accelerations while also not causing gaps on faster features.\n"
+"\n"
+"This feature aims to address this limitation by modeling the response of your printer's extrusion system depending on the volumetric flow speed and "
+"acceleration it is printing at. Internally, it generates a fitted model that can extrapolate the needed pressure advance for any given volumetric flow "
+"speed and acceleration, which is then emitted to the printer depending on the current print conditions.\n"
+"\n"
+"When enabled, the pressure advance value above is overridden. However, a reasonable default value above is strongly recommended to act as a fallback and "
+"for when tool changing.\n"
+"\n"
+msgstr ""
+
+msgid "Adaptive pressure advance measurements (beta)"
+msgstr ""
+
+#, no-c-format, no-boost-format
+msgid ""
+"Add sets of pressure advance (PA) values, the volumetric flow speeds and accelerations they were measured at, separated by a comma. One set of values per "
+"line. For example\n"
+"0.04,3.96,3000\n"
+"0.033,3.96,10000\n"
+"0.029,7.91,3000\n"
+"0.026,7.91,10000\n"
+"\n"
+"How to calibrate:\n"
+"1. Run the pressure advance test for at least 3 speeds per acceleration value. It is recommended that the test is run for at least the speed of the "
+"external perimeters, the speed of the internal perimeters and the fastest feature print speed in your profile (usually its the sparse or solid infill). "
+"Then run them for the same speeds for the slowest and fastest print accelerations, and no faster than the recommended maximum acceleration as given by the "
+"Klipper input shaper\n"
+"2. Take note of the optimal PA value for each volumetric flow speed and acceleration. You can find the flow number by selecting flow from the color scheme "
+"drop down and move the horizontal slider over the PA pattern lines. The number should be visible at the bottom of the page. The ideal PA value should be "
+"decreasing the higher the volumetric flow is. If it is not, confirm that your extruder is functioning correctly. The slower and with less acceleration you "
+"print, the larger the range of acceptable PA values. If no difference is visible, use the PA value from the faster test\n"
+"3. Enter the triplets of PA values, Flow and Accelerations in the text box here and save your filament profile"
+msgstr ""
+
+msgid "Enable adaptive pressure advance for overhangs (beta)"
+msgstr ""
+
+msgid ""
+"Enable adaptive PA for overhangs as well as when flow changes within the same feature. This is an experimental option, as if the PA profile is not set "
+"accurately, it will cause uniformity issues on the external surfaces before and after overhangs.\n"
+msgstr ""
+
+msgid "Pressure advance for bridges"
+msgstr ""
+
+msgid ""
+"Pressure advance value for bridges. Set to 0 to disable.\n"
+"\n"
+"A lower PA value when printing bridges helps reduce the appearance of slight under extrusion immediately after bridges. This is caused by the pressure "
+"drop in the nozzle when printing in the air and a lower PA helps counteract this."
+msgstr ""
+
+msgid "Default line width if other line widths are set to 0. If expressed as a %, it will be computed over the nozzle diameter."
+msgstr ""
+
+msgid "Keep fan always on"
+msgstr "Ventilátor mindig bekapcsolva"
+
+msgid ""
+"Enabling this setting means that the part cooling fan will never stop completely and will run at least at minimum speed to reduce the frequency of "
+"starting and stopping."
+msgstr ""
+"Ezen beállítás engedélyezése esetén a tárgyhűtő ventilátor soha nem áll le, és legalább a minimális fordulatszámon fog járni, hogy csökkentse az indítás "
+"és leállítás gyakoriságát"
+
+msgid "Don't slow down outer walls"
+msgstr ""
+
+msgid ""
+"If enabled, this setting will ensure external perimeters are not slowed down to meet the minimum layer time. This is particularly helpful in the below "
+"scenarios:\n"
+"1. To avoid changes in shine when printing glossy filaments\n"
+"2. To avoid changes in external wall speed which may create slight wall artifacts that appear like Z banding\n"
+"3. To avoid printing at speeds which cause VFAs (fine artifacts) on the external walls"
+msgstr ""
+
+msgid "Layer time"
+msgstr "Rétegidő"
+
+msgid ""
+"Part cooling fan will be enabled for layers of which estimated time is shorter than this value. Fan speed is interpolated between the minimum and maximum "
+"fan speeds according to layer printing time."
+msgstr ""
+"A tárgyhűtő ventilátor azon rétegek esetében lesz engedélyezve, amelyek becsült ideje rövidebb ennél az értéknél. A ventilátor fordulatszáma a "
+"rétegnyomtatási időnek megfelelően skálázódik a minimális és maximális ventilátor fordulatszám között"
+
+msgid "Default color"
+msgstr "Alapértelmezett szín"
+
+msgid ""
+"Default filament color.\n"
+"Right click to reset value to system default."
+msgstr ""
+
+msgid "Filament notes"
+msgstr ""
+
+msgid "You can put your notes regarding the filament here."
+msgstr ""
+
+msgid "Required nozzle HRC"
+msgstr "Szükséges fúvóka HRC-érték"
+
+msgid "Minimum HRC of nozzle required to print the filament. Zero means no checking of nozzle's HRC."
+msgstr "A filament nyomtatásához szükséges fúvóka minimum HRC értéke. A 0 azt jelenti, hogy nem ellenőrzi a fúvóka HRC értékét."
+
+msgid "Filament map to extruder"
+msgstr ""
+
+msgid "Filament map to extruder."
+msgstr ""
+
+msgid "filament mapping mode"
+msgstr ""
+
+msgid "Auto For Flush"
+msgstr ""
+
+msgid "Auto For Match"
+msgstr ""
+
+msgid "Flush temperature"
+msgstr ""
+
+msgid "Temperature when flushing filament. 0 indicates the upper bound of the recommended nozzle temperature range."
+msgstr ""
+
+msgid "Flush volumetric speed"
+msgstr ""
+
+msgid "Volumetric speed when flushing filament. 0 indicates the max volumetric speed."
+msgstr ""
+
+msgid ""
+"This setting stands for how much volume of filament can be melted and extruded per second. Printing speed is limited by max volumetric speed, in case of "
+"too high and unreasonable speed setting. Can't be zero."
+msgstr ""
+"Ezzel a beállítással adhatod meg a másodpercenként megolvasztható és extrudálható maximális filamentmennyiséget. A nyomtatási sebességet a maximális "
+"térfogatsebesség korlátozhatja, túl magas és ésszerűtlen sebesség esetén. Ez az érték nem lehet 0."
+
+msgid "Filament load time"
+msgstr "Filament betöltési idő"
+
+msgid ""
+"Time to load new filament when switch filament. It's usually applicable for single-extruder multi-material machines. For tool changers or multi-tool "
+"machines, it's typically 0. For statistics only."
+msgstr ""
+
+msgid "Filament unload time"
+msgstr "Filament kitöltési idő"
+
+msgid ""
+"Time to unload old filament when switch filament. It's usually applicable for single-extruder multi-material machines. For tool changers or multi-tool "
+"machines, it's typically 0. For statistics only."
+msgstr ""
+
+msgid "Tool change time"
+msgstr ""
+
+msgid ""
+"Time taken to switch tools. It's usually applicable for tool changers or multi-tool machines. For single-extruder multi-material machines, it's typically "
+"0. For statistics only."
+msgstr ""
+
+msgid "Bed temperature type"
+msgstr ""
+
+msgid ""
+"This option determines how the bed temperature is set during slicing: based on the temperature of the first filament or the highest temperature of the "
+"printed filaments."
+msgstr ""
+
+msgid "By First filament"
+msgstr ""
+
+msgid "By Highest Temp"
+msgstr ""
+
+msgid "Filament diameter is used to calculate extrusion in G-code, so it is important and should be accurate."
+msgstr "A filament átmérő a G-kódban az extrudálás kiszámításához szükséges, ezért fontos, hogy pontos legyen"
+
+msgid "Pellet flow coefficient"
+msgstr ""
+
+msgid ""
+"Pellet flow coefficient is empirically derived and allows for volume calculation for pellet printers.\n"
+"\n"
+"Internally it is converted to filament_diameter. All other volume calculations remain the same.\n"
+"\n"
+"filament_diameter = sqrt( (4 * pellet_flow_coefficient) / PI )"
+msgstr ""
+
+msgid "Adaptive volumetric speed"
+msgstr ""
+
+msgid ""
+"When enabled, the extrusion flow is limited by the smaller of the fitted value (calculated from line width and layer height) and the user-defined maximum "
+"flow. When disabled, only the user-defined maximum flow is applied."
+msgstr ""
+
+msgid "Max volumetric speed multinomial coefficients"
+msgstr ""
+
+msgid "Shrinkage (XY)"
+msgstr ""
+
+#, no-c-format, no-boost-format
+msgid ""
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in XY to "
+"compensate. Only the filament used for the perimeter is taken into account.\n"
+"Be sure to allow enough space between objects, as this compensation is done after the checks."
+msgstr ""
+
+msgid "Shrinkage (Z)"
+msgstr ""
+
+#, no-c-format, no-boost-format
+msgid ""
+"Enter the shrinkage percentage that the filament will get after cooling (94% if you measure 94mm instead of 100mm). The part will be scaled in Z to "
+"compensate."
+msgstr ""
+
+msgid "Adhesiveness Category"
+msgstr ""
+
+msgid "Filament category."
+msgstr ""
+
+msgid "Loading speed"
+msgstr "Betöltési sebesség"
+
+msgid "Speed used for loading the filament on the wipe tower."
+msgstr "A filament törlőtoronyra való betöltéséhez használt sebesség."
+
+msgid "Loading speed at the start"
+msgstr "Betöltési sebesség kezdéskor"
+
+msgid "Speed used at the very beginning of loading phase."
+msgstr "A betöltési fázis legelején használt sebesség."
+
+msgid "Unloading speed"
+msgstr "Kiürítési sebesség"
+
+msgid "Speed used for unloading the filament on the wipe tower (does not affect initial part of unloading just after ramming)."
+msgstr "A filament törlőtoronynál való kiürítéséhez használt sebesség (nem befolyásolja a kiürítés kezdeti részét közvetlenül a tömörítés után)."
+
+msgid "Unloading speed at the start"
+msgstr "Kiürítési sebesség kezdéskor"
+
+msgid "Speed used for unloading the tip of the filament immediately after ramming."
+msgstr "A filament kiürítésének sebessége közvetlenül a tömörítés után."
+
+msgid "Delay after unloading"
+msgstr "Várakozás a kiürítés után"
+
+msgid ""
+"Time to wait after the filament is unloaded. May help to get reliable tool changes with flexible materials that may need more time to shrink to original "
+"dimensions."
+msgstr ""
+"A várakozási idő az filament kiürítése után. Segíthet megbízható szerszámcserét elérni rugalmas anyagok esetén, amelyeknek több időre lehet szükségük "
+"ahhoz, hogy az eredeti méretükre zsugorodjanak."
+
+msgid "Number of cooling moves"
+msgstr "Hűtési lépések száma"
+
+msgid "Filament is cooled by being moved back and forth in the cooling tubes. Specify desired number of these moves."
+msgstr "A filament hűtése úgy történik, hogy oda-vissza mozgatják a hűtőcsőben. Adja meg a kívánt lépések számát."
+
+msgid "Stamping loading speed"
+msgstr ""
+
+msgid "Speed used for stamping."
+msgstr ""
+
+msgid "Stamping distance measured from the center of the cooling tube"
+msgstr ""
+
+msgid ""
+"If set to non-zero value, filament is moved toward the nozzle between the individual cooling moves (\"stamping\"). This option configures how long this "
+"movement should be before the filament is retracted again."
+msgstr ""
+
+msgid "Speed of the first cooling move"
+msgstr "Az első hűtési lépés sebessége"
+
+msgid "Cooling moves are gradually accelerating beginning at this speed."
+msgstr "A hűtési lépések fokozatosan felgyorsulnak ettől a sebességtől kezdve."
+
+msgid "Minimal purge on wipe tower"
+msgstr "Minimális tisztítás a törlőtoronyban"
+
+msgid ""
+"After a tool change, the exact position of the newly loaded filament inside the nozzle may not be known, and the filament pressure is likely not yet "
+"stable. Before purging the print head into an infill or a sacrificial object, Orca Slicer will always prime this amount of material into the wipe tower to "
+"produce successive infill or sacrificial object extrusions reliably."
+msgstr ""
+
+msgid "Speed of the last cooling move"
+msgstr "Az utolsó hűtési lépés sebessége"
+
+msgid "Cooling moves are gradually accelerating towards this speed."
+msgstr "A hűtési lépések fokozatosan felgyorsulnak erre a sebességre."
+
+msgid "Ramming parameters"
+msgstr "Tömörítési paraméterek"
+
+msgid "This string is edited by RammingDialog and contains ramming specific parameters."
+msgstr "Ez a karakterlánc a TömörítésPárbeszéd ablakban szerkeszthető, és a tömörítéssel kapcsolatos paramétereket tartalmaz."
+
+msgid "Enable ramming for multi-tool setups"
+msgstr ""
+
+msgid ""
+"Perform ramming when using multi-tool printer (i.e. when the 'Single Extruder Multimaterial' in Printer Settings is unchecked). When checked, a small "
+"amount of filament is rapidly extruded on the wipe tower just before the tool change. This option is only used when the wipe tower is enabled."
+msgstr ""
+
+msgid "Multi-tool ramming volume"
+msgstr ""
+
+msgid "The volume to be rammed before the tool change."
+msgstr ""
+
+msgid "Multi-tool ramming flow"
+msgstr ""
+
+msgid "Flow used for ramming the filament before the tool change."
+msgstr ""
+
+msgid "Density"
+msgstr "Sűrűség"
+
+msgid "Filament density. For statistics only."
+msgstr "Filament sűrűsége. Csak statisztikákhoz kerül felhasználásra"
+
+msgid "The material type of filament."
+msgstr "Filament anyagának típusa"
+
+msgid "Soluble material"
+msgstr "Oldható anyag"
+
+msgid "Soluble material is commonly used to print supports and support interfaces."
+msgstr "Az oldható anyagot általában a támaszok és érintkező felületek nyomtatására használják"
+
+msgid "Filament ramming length"
+msgstr ""
+
+msgid "When changing the extruder, it is recommended to extrude a certain length of filament from the original extruder. This helps minimize nozzle oozing."
+msgstr ""
+
+msgid "Support material"
+msgstr "Támaszanyag"
+
+msgid "Support material is commonly used to print supports and support interfaces."
+msgstr "A támaszanyag a támaszok és a támasz érintkező felületeinek nyomtatásához van használva."
+
+msgid "Filament printable"
+msgstr ""
+
+msgid "The filament is printable in extruder."
+msgstr ""
+
+msgid "Softening temperature"
+msgstr "Lágyulási hőmérséklet"
+
+msgid ""
+"The material softens at this temperature, so when the bed temperature is equal to or greater than this, it's highly recommended to open the front door and/"
+"or remove the upper glass to avoid clogging."
+msgstr ""
+
+msgid "Price"
+msgstr "Költség"
+
+msgid "Filament price. For statistics only."
+msgstr "Filament költsége. Csak statisztikákhoz kerül felhasználásra"
+
+msgid "money/kg"
+msgstr "pénz/kg"
+
+msgid "Vendor"
+msgstr "Gyártó"
+
+msgid "Vendor of filament. For show only."
+msgstr "Filamentgyártó."
+
+msgid "(Undefined)"
+msgstr "(Undefined)"
+
+msgid "Sparse infill direction"
+msgstr ""
+
+msgid "Angle for sparse infill pattern, which controls the start or main direction of line."
+msgstr "A ritkás kitöltési minta szöge, amely a vonal kezdő- vagy fő irányát szabályozza"
+
+msgid "Solid infill direction"
+msgstr ""
+
+msgid "Angle for solid infill pattern, which controls the start or main direction of line."
+msgstr ""
+
+msgid "Sparse infill density"
+msgstr "Kitöltés sűrűsége"
+
+#, no-c-format, no-boost-format
+msgid "Density of internal sparse infill, 100% turns all sparse infill into solid infill and internal solid infill pattern will be used."
+msgstr ""
+
+msgid "Align infill direction to model"
+msgstr ""
+
+msgid ""
+"Aligns infill and surface fill directions to follow the model's orientation on the build plate. When enabled, fill directions rotate with the model to "
+"maintain optimal strength characteristics."
+msgstr ""
+
+msgid "Insert solid layers"
+msgstr ""
+
+msgid ""
+"Insert solid infill at specific layers. Use N to insert every Nth layer, N#K to insert K consecutive solid layers every N layers (K is optional, e.g. '5#' "
+"equals '5#1'), or a comma-separated list (e.g. 1,7,9) to insert at explicit layers. Layers are 1-based."
+msgstr ""
+
+msgid "Fill Multiline"
+msgstr ""
+
+msgid "Using multiple lines for the infill pattern, if supported by infill pattern."
+msgstr ""
+
+msgid "Sparse infill pattern"
+msgstr "Kitöltési mintázat"
+
+msgid "Line pattern for internal sparse infill."
+msgstr "Ez a belső ritkás kitöltés mintája."
+
+msgid "Zig Zag"
+msgstr ""
+
+msgid "Cross Zag"
+msgstr ""
+
+msgid "Locked Zag"
+msgstr ""
+
+msgid "Line"
+msgstr "Vonal"
+
+msgid "Grid"
+msgstr "Rács"
+
+msgid "Tri-hexagon"
+msgstr "Háromszögletű"
+
+msgid "Cubic"
+msgstr "Kockás"
+
+msgid "Adaptive Cubic"
+msgstr "Adaptív kocka"
+
+msgid "Quarter Cubic"
+msgstr ""
+
+msgid "Support Cubic"
+msgstr "Támasz kocka"
+
+msgid "Lightning"
+msgstr "Világítás"
+
+msgid "Honeycomb"
+msgstr "Méhsejt"
+
+msgid "3D Honeycomb"
+msgstr "3D-méhsejt"
+
+msgid "Lateral Honeycomb"
+msgstr ""
+
+msgid "Lateral Lattice"
+msgstr ""
+
+msgid "Cross Hatch"
+msgstr "Cross Hatch"
+
+msgid "TPMS-D"
+msgstr ""
+
+msgid "TPMS-FK"
+msgstr ""
+
+msgid "Gyroid"
+msgstr "Gyroid"
+
+msgid "Lateral lattice angle 1"
+msgstr ""
+
+msgid "The angle of the first set of Lateral lattice elements in the Z direction. Zero is vertical."
+msgstr ""
+
+msgid "Lateral lattice angle 2"
+msgstr ""
+
+msgid "The angle of the second set of Lateral lattice elements in the Z direction. Zero is vertical."
+msgstr ""
+
+msgid "Infill overhang angle"
+msgstr ""
+
+msgid "The angle of the infill angled lines. 60° will result in a pure honeycomb."
+msgstr ""
+
+msgid "Sparse infill anchor length"
+msgstr ""
+
+msgid ""
+"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is "
+"calculated over infill extrusion width. Orca Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment "
+"shorter than infill_anchor_max is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment "
+"taken is limited to this parameter, but no longer than anchor_length_max.\n"
+"Set this parameter to zero to disable anchoring perimeters connected to a single infill line."
+msgstr ""
+
+msgid "0 (no open anchors)"
+msgstr ""
+
+msgid "1000 (unlimited)"
+msgstr ""
+
+msgid "Maximum length of the infill anchor"
+msgstr "A kitöltőhorgony maximális hossza"
+
+msgid ""
+"Connect an infill line to an internal perimeter with a short segment of an additional perimeter. If expressed as percentage (example: 15%) it is "
+"calculated over infill extrusion width. Orca Slicer tries to connect two close infill lines to a short perimeter segment. If no such perimeter segment "
+"shorter than this parameter is found, the infill line is connected to a perimeter segment at just one side and the length of the perimeter segment taken "
+"is limited to infill_anchor, but no longer than this parameter.\n"
+"If set to 0, the old algorithm for infill connection will be used, it should create the same result as with 1000 & 0."
+msgstr ""
+
+msgid "0 (Simple connect)"
+msgstr ""
+
+msgid "Acceleration of outer walls."
+msgstr ""
+
+msgid "Acceleration of inner walls."
+msgstr ""
+
+msgid "Acceleration of travel moves."
+msgstr ""
+
+msgid "Acceleration of top surface infill. Using a lower value may improve top surface quality."
+msgstr "A felső felületi kitöltés gyorsulása. Alacsonyabb érték használata javíthatja a felső felület minőségét"
+
+msgid "Acceleration of outer wall. Using a lower value can improve quality."
+msgstr "Gyorsulás a külső falnál: alacsonyabb érték használata javíthatja a minőséget."
+
+msgid "Acceleration of bridges. If the value is expressed as a percentage (e.g. 50%), it will be calculated based on the outer wall acceleration."
+msgstr ""
+
+msgid "mm/s² or %"
+msgstr "mm/s² vagy %"
+
+msgid "Acceleration of sparse infill. If the value is expressed as a percentage (e.g. 100%), it will be calculated based on the default acceleration."
+msgstr "Gyorsulás a ritkás kitöltéseknél. Ha az érték százalékban van megadva (pl. 100%), akkor az alapértelmezett gyorsulás alapján kerül kiszámításra."
+
+msgid ""
+"Acceleration of internal solid infill. If the value is expressed as a percentage (e.g. 100%), it will be calculated based on the default acceleration."
+msgstr ""
+
+msgid "Acceleration of initial layer. Using a lower value can improve build plate adhesion."
+msgstr "A kezdőréteg gyorsulása. Alacsonyabb érték használata javíthatja a tárgyasztalhoz való tapadást"
+
+msgid "Enable accel_to_decel"
+msgstr "accel_to_decel engedélyezése"
+
+msgid "Klipper's max_accel_to_decel will be adjusted automatically."
+msgstr "A Klipper max_accel_to_decel értékét a rendszer automatikusan beállítja"
+
+msgid "accel_to_decel"
+msgstr "accel_to_decel"
+
+#, c-format, boost-format
+msgid "Klipper's max_accel_to_decel will be adjusted to this %% of acceleration."
+msgstr ""
+
+msgid "Default jerk."
+msgstr ""
+
+msgid "Junction Deviation"
+msgstr ""
+
+msgid "Marlin Firmware Junction Deviation (replaces the traditional XY Jerk setting)."
+msgstr ""
+
+msgid "Jerk of outer walls."
+msgstr "Jerk a külső falaknál"
+
+msgid "Jerk of inner walls."
+msgstr "Jerk a belső falaknál"
+
+msgid "Jerk for top surface."
+msgstr ""
+
+msgid "Jerk for infill."
+msgstr ""
+
+msgid "Jerk for initial layer."
+msgstr ""
+
+msgid "Jerk for travel."
+msgstr ""
+
+msgid "Line width of initial layer. If expressed as a %, it will be computed over the nozzle diameter."
+msgstr ""
+
+msgid "Initial layer height"
+msgstr "Kezdő rétegmagasság"
+
+msgid "Height of initial layer. Making initial layer height to be thick slightly can improve build plate adhesion."
+msgstr "Kezdőréteg magassága. A vastagabb kezdőréteg javíthatja a tárgy asztalhoz való tapadását"
+
+msgid "Speed of initial layer except the solid infill part."
+msgstr "A kezdőréteg nyomtatási sebessége a szilárd kitöltési rész kivételével"
+
+msgid "Initial layer infill"
+msgstr "Kezdőréteg kitöltése"
+
+msgid "Speed of solid infill part of initial layer."
+msgstr "A kezdőréteg szilárd kitöltési részének sebessége"
+
+msgid "Initial layer travel speed"
+msgstr ""
+
+msgid "Travel speed of initial layer."
+msgstr ""
+
+msgid "Number of slow layers"
+msgstr ""
+
+msgid "The first few layers are printed slower than normal. The speed is gradually increased in a linear fashion over the specified number of layers."
+msgstr ""
+
+msgid "Initial layer nozzle temperature"
+msgstr "Az első réteg fúvóka hőmérséklete"
+
+msgid "Nozzle temperature for printing initial layer when using this filament."
+msgstr "A fúvóka hőmérséklete az első réteg nyomtatásakor ezzel a filamenttel"
+
+msgid "Full fan speed at layer"
+msgstr "Teljes ventilátor fordulatszám ennél a rétegnél"
+
+msgid ""
+"Fan speed will be ramped up linearly from zero at layer \"close_fan_the_first_x_layers\" to maximum at layer \"full_fan_speed_layer\". "
+"\"full_fan_speed_layer\" will be ignored if lower than \"close_fan_the_first_x_layers\", in which case the fan will be running at maximum allowed speed at "
+"layer \"close_fan_the_first_x_layers\" + 1."
+msgstr ""
+
+msgid "layer"
+msgstr ""
+
+msgid "Support interface fan speed"
+msgstr ""
+
+msgid ""
+"This part cooling fan speed is applied when printing support interfaces. Setting this parameter to a higher than regular speed reduces the layer binding "
+"strength between supports and the supported part, making them easier to separate.\n"
+"Set to -1 to disable it.\n"
+"This setting is overridden by disable_fan_first_layers."
+msgstr ""
+
+msgid "Internal bridges fan speed"
+msgstr ""
+
+msgid ""
+"The part cooling fan speed used for all internal bridges. Set to -1 to use the overhang fan speed settings instead.\n"
+"\n"
+"Reducing the internal bridges fan speed, compared to your regular fan speed, can help reduce part warping due to excessive cooling applied over a large "
+"surface for a prolonged period of time."
+msgstr ""
+
+msgid "Ironing fan speed"
+msgstr ""
+
+msgid ""
+"This part cooling fan speed is applied when ironing. Setting this parameter to a lower than regular speed reduces possible nozzle clogging due to the low "
+"volumetric flow rate, making the interface smoother.\n"
+"Set to -1 to disable it."
+msgstr ""
+
+msgid "Randomly jitter while printing the wall, so that the surface has a rough look. This setting controls the fuzzy position."
+msgstr "A nyomtató véletlenszerűen vibrál a fal nyomtatása közben, így a felület durva megjelenésű lesz"
+
+msgid "Contour"
+msgstr ""
+
+msgid "Contour and hole"
+msgstr ""
+
+msgid "All walls"
+msgstr "Összes fal"
+
+msgid "Fuzzy skin thickness"
+msgstr "Fuzzy skin vastagsága"
+
+msgid "The width within which to jitter. It's advised to be below outer wall line width."
+msgstr "A rezgés szélessége: ezt ajánlott kisebbre állítani, mint a külső fal szélessége."
+
+msgid "Fuzzy skin point distance"
+msgstr "Fuzzy skin pontok távolsága"
+
+msgid "The average distance between the random points introduced on each line segment."
+msgstr "Az egyes vonalszakaszokon használt véletlen pontok közötti átlagos távolság"
+
+msgid "Apply fuzzy skin to first layer"
+msgstr ""
+
+msgid "Whether to apply fuzzy skin on the first layer."
+msgstr ""
+
+msgid "Fuzzy skin generator mode"
+msgstr ""
+
+#, c-format, boost-format
+msgid ""
+"Fuzzy skin generation mode. Works only with Arachne!\n"
+"Displacement: Сlassic mode when the pattern is formed by shifting the nozzle sideways from the original path.\n"
+"Extrusion: The mode when the pattern formed by the amount of extruded plastic. This is the fast and straight algorithm without unnecessary nozzle shake "
+"that gives a smooth pattern. But it is more useful for forming loose walls in the entire they array.\n"
+"Combined: Joint mode [Displacement] + [Extrusion]. The appearance of the walls is similar to [Displacement] Mode, but it leaves no pores between the "
+"perimeters.\n"
+"\n"
+"Attention! The [Extrusion] and [Combined] modes works only the fuzzy_skin_thickness parameter not more than the thickness of printed loop. At the same "
+"time, the width of the extrusion for a particular layer should also not be below a certain level. It is usually equal 15-25%% of a layer height. "
+"Therefore, the maximum fuzzy skin thickness with a perimeter width of 0.4 mm and a layer height of 0.2 mm will be 0.4-(0.2*0.25)=±0.35mm! If you enter a "
+"higher parameter than this, the error Flow::spacing() will displayed, and the model will not be sliced. You can choose this number until this error is "
+"repeated."
+msgstr ""
+
+msgid "Displacement"
+msgstr ""
+
+msgid "Extrusion"
+msgstr ""
+
+msgid "Combined"
+msgstr ""
+
+msgid "Fuzzy skin noise type"
+msgstr ""
+
+msgid ""
+"Noise type to use for fuzzy skin generation:\n"
+"Classic: Classic uniform random noise.\n"
+"Perlin: Perlin noise, which gives a more consistent texture.\n"
+"Billow: Similar to perlin noise, but clumpier.\n"
+"Ridged Multifractal: Ridged noise with sharp, jagged features. Creates marble-like textures.\n"
+"Voronoi: Divides the surface into voronoi cells, and displaces each one by a random amount. Creates a patchwork texture."
+msgstr ""
+
+msgid "Classic"
+msgstr "Klasszikus"
+
+msgid "Perlin"
+msgstr ""
+
+msgid "Billow"
+msgstr ""
+
+msgid "Ridged Multifractal"
+msgstr ""
+
+msgid "Voronoi"
+msgstr ""
+
+msgid "Fuzzy skin feature size"
+msgstr ""
+
+msgid "The base size of the coherent noise features, in mm. Higher values will result in larger features."
+msgstr ""
+
+msgid "Fuzzy Skin Noise Octaves"
+msgstr ""
+
+msgid "The number of octaves of coherent noise to use. Higher values increase the detail of the noise, but also increase computation time."
+msgstr ""
+
+msgid "Fuzzy skin noise persistence"
+msgstr ""
+
+msgid "The decay rate for higher octaves of the coherent noise. Lower values will result in smoother noise."
+msgstr ""
+
+msgid "Filter out tiny gaps"
+msgstr "Apró rések szűrése"
+
+msgid "Layers and Perimeters"
+msgstr "Rétegek és peremek"
+
+msgid ""
+"Don't print gap fill with a length is smaller than the threshold specified (in mm). This setting applies to top, bottom and solid infill and, if using the "
+"classic perimeter generator, to wall gap fill."
+msgstr ""
+
+msgid "Speed of gap infill. Gap usually has irregular line width and should be printed more slowly."
+msgstr "A hézagkitöltés nyomtatási sebessége. A rés általában szabálytalan vonalszélességű, és lassabban kell nyomtatni"
+
+msgid "Precise Z height"
+msgstr "Pontos Z magasság"
+
+msgid ""
+"Enable this to get precise Z height of object after slicing. It will get the precise object height by fine-tuning the "
+"layer heights of the last few layers. Note that this is an experimental parameter."
+msgstr "Engedélyezze ezt az objektum pontos Z magasságának meghatározásához szeletelés után. "
+
+msgid "Arc fitting"
+msgstr "Íves illesztés"
+
+msgid ""
+"Enable this to get a G-code file which has G2 and G3 moves. The fitting tolerance is same as the resolution.\n"
+"\n"
+"Note: For Klipper machines, this option is recommended to be disabled. Klipper does not benefit from arc commands as these are split again into line "
+"segments by the firmware. This results in a reduction in surface quality as line segments are converted to arcs by the slicer and then back to line "
+"segments by the firmware."
+msgstr ""
+
+msgid "Add line number"
+msgstr "Vonalszám hozzáadása"
+
+msgid "Enable this to add line number(Nx) at the beginning of each G-code line."
+msgstr "Ha engedélyezed ezt a beállítást, minden G-kód sor elejére sorszám (Nx) kerül."
+
+msgid "Scan first layer"
+msgstr "Az első réteg szkennelése"
+
+msgid "Enable this to enable the camera on printer to check the quality of first layer."
+msgstr "Engedélyezd ezt az opciót, hogy a nyomtató kamerája ellenőrizze az első réteg minőségét"
+
+msgid "Nozzle type"
+msgstr "Fúvóka típus"
+
+msgid "The metallic material of nozzle. This determines the abrasive resistance of nozzle, and what kind of filament can be printed."
+msgstr "A fúvóka anyaga: Ez határozza meg a fúvóka kopásállóságát és azt, hogy milyen filamentekkel képes nyomtatni."
+
+msgid "Undefine"
+msgstr "Nincs meghatározva"
+
+msgid "Hardened steel"
+msgstr "Edzett acél"
+
+msgid "Stainless steel"
+msgstr "Rozsdamentes acél"
+
+msgid "Tungsten carbide"
+msgstr ""
+
+msgid "Brass"
+msgstr "Sárgaréz"
+
+msgid "Nozzle HRC"
+msgstr "Fúvóka HRC értéke"
+
+msgid "The nozzle's hardness. Zero means no checking for nozzle's hardness during slicing."
+msgstr "A fúvóka keménysége. A 0 azt jelenti, hogy szeletelés során nem ellenőrzi a fúvóka HRC értékét."
+
+msgid "HRC"
+msgstr "HRC"
+
+msgid "Printer structure"
+msgstr "Nyomtató szerkezete"
+
+msgid "The physical arrangement and components of a printing device."
+msgstr "A nyomtató fizikai felépítése és alkatrészei"
+
+msgid "CoreXY"
+msgstr ""
+
+msgid "I3"
+msgstr ""
+
+msgid "Hbot"
+msgstr ""
+
+msgid "Delta"
+msgstr ""
+
+msgid "Best object position"
+msgstr "Legjobb tárgypozíció"
+
+msgid "Best auto arranging position in range [0,1] w.r.t. bed shape."
+msgstr "A legjobb automatikus elrendezés tartománya [0,1] a tárgyasztal alakja szerint."
+
+msgid "Enable this option if machine has auxiliary part cooling fan. G-code command: M106 P2 S(0-255)."
+msgstr ""
+
+msgid ""
+"Start the fan this number of seconds earlier than its target start time (you can use fractional seconds). It assumes infinite acceleration for this time "
+"estimation, and will only take into account G1 and G0 moves (arc fitting is unsupported).\n"
+"It won't move fan commands from custom G-code (they act as a sort of 'barrier').\n"
+"It won't move fan commands into the start G-code if the 'only custom start G-code' is activated.\n"
+"Use 0 to deactivate."
+msgstr ""
+
+msgid "Only overhangs"
+msgstr ""
+
+msgid "Will only take into account the delay for the cooling of overhangs."
+msgstr ""
+
+msgid "Fan kick-start time"
+msgstr ""
+
+msgid ""
+"Emit a max fan speed command for this amount of seconds before reducing to target speed to kick-start the cooling fan.\n"
+"This is useful for fans where a low PWM/power may be insufficient to get the fan started spinning from a stop, or to get the fan up to speed faster.\n"
+"Set to 0 to deactivate."
+msgstr ""
+
+msgid "Time cost"
+msgstr ""
+
+msgid "The printer cost per hour."
+msgstr ""
+
+msgid "money/h"
+msgstr ""
+
+msgid "Support control chamber temperature"
+msgstr "Kamrahőmérséklet-szabályozás engedélyezése"
+
+msgid ""
+"This option is enabled if machine support controlling chamber temperature\n"
+"G-code command: M141 S(0-255)"
+msgstr ""
+
+msgid "Support air filtration"
+msgstr "Légszűrés támogatása"
+
+msgid ""
+"Enable this if printer support air filtration\n"
+"G-code command: M106 P3 S(0-255)"
+msgstr ""
+
+msgid "G-code flavor"
+msgstr "G-kód változat"
+
+msgid "What kind of G-code the printer is compatible with."
+msgstr "Milyen G-kóddal kompatibilis a nyomtató."
+
+msgid "Klipper"
+msgstr ""
+
+msgid "Pellet Modded Printer"
+msgstr ""
+
+msgid "Enable this option if your printer uses pellets instead of filaments."
+msgstr ""
+
+msgid "Support multi bed types"
+msgstr ""
+
+msgid "Enable this option if you want to use multiple bed types."
+msgstr ""
+
+msgid "Label objects"
+msgstr "Objektumok címkézése"
+
+msgid ""
+"Enable this to add comments into the G-code labeling print moves with what object they belong to, which is useful for the Octoprint CancelObject plugin. "
+"This settings is NOT compatible with Single Extruder Multi Material setup and Wipe into Object / Wipe into Infill."
+msgstr ""
+
+msgid "Exclude objects"
+msgstr "Tárgyak kizárása"
+
+msgid "Enable this option to add EXCLUDE OBJECT command in G-code."
+msgstr ""
+
+msgid "Verbose G-code"
+msgstr "Bővebb G-kód"
+
+msgid ""
+"Enable this to get a commented G-code file, with each line explained by a descriptive text. If you print from SD card, the additional weight of the file "
+"could make your firmware slow down."
+msgstr ""
+"Ha engedélyezi ezt a funkciót, akkor egy kommentezett G-kód fájlt kap, amelynek minden egyes sorát egy leíró szöveg magyarázza. Ha SD-kártyáról nyomtat, a "
+"fájl nagyobb mérete miatt a nyomtató vezérlő szoftvere lelassulhat."
+
+msgid "Infill combination"
+msgstr "Kitöltés összevonása"
+
+msgid "Automatically Combine sparse infill of several layers to print together to reduce time. Wall is still printed with original layer height."
+msgstr ""
+"Több réteg ritkás kitöltésének automatikus kombinálása a nyomtatási idő csökkentése érdekében. A fal továbbra is az eredeti rétegmagassággal kerül "
+"kinyomtatásra."
+
+msgid "Infill shift step"
+msgstr ""
+
+msgid "This parameter adds a slight displacement to each layer of infill to create a cross texture."
+msgstr ""
+
+msgid "Sparse infill rotation template"
+msgstr ""
+
+msgid ""
+"Rotate the sparse infill direction per layer using a template of angles. Enter comma-separated degrees (e.g., '0,30,60,90'). Angles are applied in order "
+"by layer and repeat when the list ends. Advanced syntax is supported: '+5' rotates +5° every layer; '+5#5' rotates +5° every 5 layers. See the Wiki for "
+"details. When a template is set, the standard infill direction setting is ignored. Note: some infill patterns (e.g., Gyroid) control rotation themselves; "
+"use with care."
+msgstr ""
+
+msgid "°"
+msgstr "°"
+
+msgid "Solid infill rotation template"
+msgstr ""
+
+msgid ""
+"This parameter adds a rotation of solid infill direction to each layer according to the specified template. The template is a comma-separated list of "
+"angles in degrees, e.g. '0,90'. The first angle is applied to the first layer, the second angle to the second layer, and so on. If there are more layers "
+"than angles, the angles will be repeated. Note that not all solid infill patterns support rotation."
+msgstr ""
+
+msgid "Skeleton infill density"
+msgstr ""
+
+msgid ""
+"The remaining part of the model contour after removing a certain depth from the surface is called the skeleton. This parameter is used to adjust the "
+"density of this section. When two regions have the same sparse infill settings but different skeleton densities, their skeleton areas will develop "
+"overlapping sections. Default is as same as infill density."
+msgstr ""
+
+msgid "Skin infill density"
+msgstr ""
+
+msgid ""
+"The portion of the model's outer surface within a certain depth range is called the skin. This parameter is used to adjust the density of this section. "
+"When two regions have the same sparse infill settings but different skin densities, this area will not be split into two separate regions. Default is as "
+"same as infill density."
+msgstr ""
+
+msgid "Skin infill depth"
+msgstr ""
+
+msgid "The parameter sets the depth of skin."
+msgstr ""
+
+msgid "Infill lock depth"
+msgstr ""
+
+msgid "The parameter sets the overlapping depth between the interior and skin."
+msgstr ""
+
+msgid "Skin line width"
+msgstr ""
+
+msgid "Adjust the line width of the selected skin paths."
+msgstr ""
+
+msgid "Skeleton line width"
+msgstr ""
+
+msgid "Adjust the line width of the selected skeleton paths."
+msgstr ""
+
+msgid "Symmetric infill Y axis"
+msgstr ""
+
+msgid ""
+"If the model has two parts that are symmetric about the Y axis, and you want these parts to have symmetric textures, please click this option on one of "
+"the parts."
+msgstr ""
+
+msgid "Infill combination - Max layer height"
+msgstr ""
+
+msgid ""
+"Maximum layer height for the combined sparse infill.\n"
+"\n"
+"Set it to 0 or 100% to use the nozzle diameter (for maximum reduction in print time) or a value of ~80% to maximize sparse infill strength.\n"
+"\n"
+"The number of layers over which infill is combined is derived by dividing this value with the layer height and rounded down to the nearest decimal.\n"
+"\n"
+"Use either absolute mm values (eg. 0.32mm for a 0.4mm nozzle) or % values (eg 80%). This value must not be larger than the nozzle diameter."
+msgstr ""
+
+msgid "Enable clumping detection"
+msgstr ""
+
+msgid "Clumping detection layers"
+msgstr ""
+
+msgid "Clumping detection layers."
+msgstr ""
+
+msgid "Probing exclude area of clumping"
+msgstr ""
+
+msgid "Probing exclude area of clumping."
+msgstr ""
+
+msgid "Filament to print internal sparse infill."
+msgstr "Filament a belső ritkás kitöltésekhez."
+
+msgid "Line width of internal sparse infill. If expressed as a %, it will be computed over the nozzle diameter."
+msgstr ""
+
+msgid "Infill/Wall overlap"
+msgstr "Kitöltés/fal átfedés"
+
+#, no-c-format, no-boost-format
+msgid ""
+"Infill area is enlarged slightly to overlap with wall for better bonding. The percentage value is relative to line width of sparse infill. Set this value "
+"to ~10-15% to minimize potential over extrusion and accumulation of material resulting in rough top surfaces."
+msgstr ""
+
+msgid "Top/Bottom solid infill/wall overlap"
+msgstr ""
+
+#, no-c-format, no-boost-format
+msgid ""
+"Top solid infill area is enlarged slightly to overlap with wall for better bonding and to minimize the appearance of pinholes where the top infill meets "
+"the walls. A value of 25-30% is a good starting point, minimizing the appearance of pinholes. The percentage value is relative to line width of sparse "
+"infill."
+msgstr ""
+
+msgid "Speed of internal sparse infill."
+msgstr "A belső ritkás kitöltés sebessége"
+
+msgid "Inherits profile"
+msgstr "Örököli a profilt"
+
+msgid "Name of parent profile."
+msgstr ""
+
+msgid "Interface shells"
+msgstr ""
+
+msgid ""
+"Force the generation of solid shells between adjacent materials/volumes. Useful for multi-extruder prints with translucent materials or manual soluble "
+"support material."
+msgstr ""
+
+msgid "Maximum width of a segmented region"
+msgstr "Szegmentált régió maximális szélessége"
+
+msgid "Maximum width of a segmented region. Zero disables this feature."
+msgstr "Szegmentált régió maximális szélessége. A 0 érték letiltja ezt a funkciót."
+
+msgid "Interlocking depth of a segmented region"
+msgstr "Szegmentált régió összekapcsolódási mélysége"
+
+msgid ""
+"Interlocking depth of a segmented region. It will be ignored if \"mmu_segmented_region_max_width\" is zero or if "
+"\"mmu_segmented_region_interlocking_depth\" is bigger than \"mmu_segmented_region_max_width\". Zero disables this feature."
+msgstr ""
+
+msgid "Use beam interlocking"
+msgstr ""
+
+msgid ""
+"Generate interlocking beam structure at the locations where different filaments touch. This improves the adhesion between filaments, especially models "
+"printed in different materials."
+msgstr ""
+
+msgid "Interlocking beam width"
+msgstr ""
+
+msgid "The width of the interlocking structure beams."
+msgstr ""
+
+msgid "Interlocking direction"
+msgstr ""
+
+msgid "Orientation of interlock beams."
+msgstr ""
+
+msgid "Interlocking beam layers"
+msgstr ""
+
+msgid "The height of the beams of the interlocking structure, measured in number of layers. Less layers is stronger, but more prone to defects."
+msgstr ""
+
+msgid "Interlocking depth"
+msgstr ""
+
+msgid "The distance from the boundary between filaments to generate interlocking structure, measured in cells. Too few cells will result in poor adhesion."
+msgstr ""
+
+msgid "Interlocking boundary avoidance"
+msgstr ""
+
+msgid "The distance from the outside of a model where interlocking structures will not be generated, measured in cells."
+msgstr ""
+
+msgid "Ironing Type"
+msgstr "Vasalás típusa"
+
+msgid "Ironing is using small flow to print on same height of surface again to make flat surface more smooth. This setting controls which layer being ironed"
+msgstr "A vasalás kis anyagáramlás használatával kisimítja a sík felületeket. Ez a beállítás szabályozza, hogy mely rétegeknél történik meg a vasalás."
+
+msgid "No ironing"
+msgstr "Nincs vasalás"
+
+msgid "Top surfaces"
+msgstr "Felső felületek"
+
+msgid "Topmost surface"
+msgstr "Legfelső felület"
+
+msgid "All solid layer"
+msgstr "Összes szilárd réteg"
+
+msgid "Ironing Pattern"
+msgstr ""
+
+msgid "The pattern that will be used when ironing."
+msgstr ""
+
+msgid "Ironing flow"
+msgstr "Vasalás áramlási sebesség"
+
+msgid "The amount of material to extrude during ironing. Relative to flow of normal layer height. Too high value results in overextrusion on the surface."
+msgstr "A vasalás során extrudálandó anyag mennyisége a normál anyagáramláshoz viszonyítva. A túl magas érték a felületen túlextrudálást eredményez."
+
+msgid "Ironing line spacing"
+msgstr "Vasalási vonalak közötti távolság"
+
+msgid "The distance between the lines of ironing."
+msgstr "A vasaláshoz használt vonalak közötti távolság."
+
+msgid "Ironing inset"
+msgstr ""
+
+msgid "The distance to keep from the edges. A value of 0 sets this to half of the nozzle diameter."
+msgstr ""
+
+msgid "Ironing speed"
+msgstr "Vasalás sebessége"
+
+msgid "Print speed of ironing lines."
+msgstr "A vasalási vonalak nyomtatási sebessége"
+
+msgid "Ironing angle offset"
+msgstr ""
+
+msgid "The angle of ironing lines offset from the top surface."
+msgstr ""
+
+msgid "Fixed ironing angle"
+msgstr ""
+
+msgid "Use a fixed absolute angle for ironing."
+msgstr ""
+
+msgid "This G-code is inserted at every layer change after the Z lift."
+msgstr "Ez a G-kód minden rétegváltásnál beillesztésre kerül a Z tengely megemelése után."
+
+msgid "Clumping detection G-code"
+msgstr ""
+
+msgid "Supports silent mode"
+msgstr "Csendes mód"
+
+msgid "Whether the machine supports silent mode in which machine use lower acceleration to print."
+msgstr "Csendes üzemmód támogatása, amelyben a gép kisebb gyorsulást használ a csendesebb nyomtatáshoz"
+
+msgid "Emit limits to G-code"
+msgstr ""
+
+msgid "Machine limits"
+msgstr "Géplimitek"
+
+msgid ""
+"If enabled, the machine limits will be emitted to G-code file.\n"
+"This option will be ignored if the G-code flavor is set to Klipper."
+msgstr ""
+
+msgid "This G-code will be used as a code for the pause print. Users can insert pause G-code in the G-code viewer."
+msgstr "Ez a G-kód lesz használva a nyomtatás szüneteltetéséhez. A felhasználók a szünet G-kódot a G-kódnézőben illeszthetik be."
+
+msgid "This G-code will be used as a custom code."
+msgstr "Ezt a G-kód egyedi kódként lesz használva."
+
+msgid "Small area flow compensation (beta)"
+msgstr ""
+
+msgid "Enable flow compensation for small infill areas."
+msgstr ""
+
+msgid "Flow Compensation Model"
+msgstr ""
+
+msgid ""
+"Flow Compensation Model, used to adjust the flow for small infill areas. The model is expressed as a comma separated pair of values for extrusion length "
+"and flow correction factor. Each pair is on a separate line, followed by a semicolon, in the following format: \"1.234, 5.678;\""
+msgstr ""
+
+msgid "Maximum speed X"
+msgstr "Maximális sebesség X"
+
+msgid "Maximum speed Y"
+msgstr "Maximális sebesség Y"
+
+msgid "Maximum speed Z"
+msgstr "Maximális sebesség Z"
+
+msgid "Maximum speed E"
+msgstr "Maximális sebesség E"
+
+msgid "Maximum X speed"
+msgstr "Maximális X sebesség"
+
+msgid "Maximum Y speed"
+msgstr "Maximális Y sebesség"
+
+msgid "Maximum Z speed"
+msgstr "Maximális Z sebesség"
+
+msgid "Maximum E speed"
+msgstr "Maximális E sebesség"
+
+msgid "Maximum acceleration X"
+msgstr "Maximális sebesség  X"
+
+msgid "Maximum acceleration Y"
+msgstr "Maximális gyorsulás Y"
+
+msgid "Maximum acceleration Z"
+msgstr "Maximális gyorsulás Z"
+
+msgid "Maximum acceleration E"
+msgstr "Maximális gyorsulás E"
+
+msgid "Maximum acceleration of the X axis"
+msgstr "X-tengely maximális gyorsulás"
+
+msgid "Maximum acceleration of the Y axis"
+msgstr "Y-tengely maximális gyorsulás"
+
+msgid "Maximum acceleration of the Z axis"
+msgstr "Z-tengely maximális gyorsulás"
+
+msgid "Maximum acceleration of the E axis"
+msgstr "E-tengely maximális gyorsulás"
+
+msgid "Maximum jerk X"
+msgstr "Maximális jerk X"
+
+msgid "Maximum jerk Y"
+msgstr "Maximális jerk Y"
+
+msgid "Maximum jerk Z"
+msgstr "Maximális jerk Z"
+
+msgid "Maximum jerk E"
+msgstr "Maximális jerk E"
+
+msgid "Maximum jerk of the X axis"
+msgstr "Maximális jerk az X tengelyen"
+
+msgid "Maximum jerk of the Y axis"
+msgstr "Maximális jerk az Y tengelyen"
+
+msgid "Maximum jerk of the Z axis"
+msgstr "Maximális jerk a Z tengelyen"
+
+msgid "Maximum jerk of the E axis"
+msgstr "Maximális jerk az E tengelyen"
+
+msgid "Maximum Junction Deviation"
+msgstr ""
+
+msgid ""
+"Maximum junction deviation (M205 J, only apply if JD > 0 for Marlin Firmware\n"
+"If your Marlin 2 printer uses Classic Jerk set this value to 0.)"
+msgstr ""
+
+msgid "Minimum speed for extruding"
+msgstr "Extrudálás minimális sebessége"
+
+msgid "Minimum speed for extruding (M205 S)"
+msgstr "Minimális sebesség az extrudáláshoz (M205 S)"
+
+msgid "Minimum travel speed"
+msgstr "Minimum mozgási sebesség"
+
+msgid "Minimum travel speed (M205 T)"
+msgstr "Minimum mozgási sebesség (M205 T)"
+
+msgid "Maximum acceleration for extruding"
+msgstr "Maximális gyorsulás extrudáláshoz"
+
+msgid "Maximum acceleration for extruding (M204 P)"
+msgstr "Maximális gyorsulás extrudáláshoz (M204 P)"
+
+msgid "Maximum acceleration for retracting"
+msgstr "Maximális gyorsulás a visszahúzáshoz"
+
+msgid "Maximum acceleration for retracting (M204 R)"
+msgstr "Maximális gyorsulás a visszahúzáshoz (M204 R)"
+
+msgid "Maximum acceleration for travel"
+msgstr "Maximális gyorsulás a mozgáshoz"
+
+msgid "Maximum acceleration for travel (M204 T), it only applies to Marlin 2."
+msgstr ""
+
+msgid "Resonance avoidance"
+msgstr ""
+
+msgid ""
+"By reducing the speed of the outer wall to avoid the resonance zone of the printer, ringing on the surface of the model are avoided.\n"
+"Please turn this option off when testing ringing."
+msgstr ""
+
+msgid "Min"
+msgstr "Min"
+
+msgid "Minimum speed of resonance avoidance."
+msgstr ""
+
+msgid "Max"
+msgstr "Max"
+
+msgid "Maximum speed of resonance avoidance."
+msgstr ""
+
+msgid "Part cooling fan speed may be increased when auto cooling is enabled. This is the maximum speed for the part cooling fan."
+msgstr "A tárgyhűtő ventilátor fordulatszáma növelhető, ha az automatikus hűtés engedélyezve van. Ez a tárgyhűtő ventilátor maximális fordulatszám-határa"
+
+msgid "The highest printable layer height for the extruder. Used to limit the maximum layer height when enable adaptive layer height."
+msgstr ""
+
+msgid "Extrusion rate smoothing"
+msgstr ""
+
+msgid ""
+"This parameter smooths out sudden extrusion rate changes that happen when the printer transitions from printing a high flow (high speed/larger width) "
+"extrusion to a lower flow (lower speed/smaller width) extrusion and vice versa.\n"
+"\n"
+"It defines the maximum rate by which the extruded volumetric flow in mm³/s can change over time. Higher values mean higher extrusion rate changes are "
+"allowed, resulting in faster speed transitions.\n"
+"\n"
+"A value of 0 disables the feature.\n"
+"\n"
+"For a high speed, high flow direct drive printer (like the Bambu lab or Voron) this value is usually not needed. However it can provide some marginal "
+"benefit in certain cases where feature speeds vary greatly. For example, when there are aggressive slowdowns due to overhangs. In these cases a high value "
+"of around 300-350 mm³/s² is recommended as this allows for just enough smoothing to assist pressure advance achieve a smoother flow transition.\n"
+"\n"
+"For slower printers without pressure advance, the value should be set much lower. A value of 10-15 mm³/s² is a good starting point for direct drive "
+"extruders and 5-10 mm³/s² for Bowden style.\n"
+"\n"
+"This feature is known as Pressure Equalizer in Prusa slicer.\n"
+"\n"
+"Note: this parameter disables arc fitting."
+msgstr ""
+
+msgid "Smoothing segment length"
+msgstr ""
+
+msgid ""
+"A lower value results in smoother extrusion rate transitions. However, this results in a significantly larger G-code file and more instructions for the "
+"printer to process.\n"
+"\n"
+"Default value of 3 works well for most cases. If your printer is stuttering, increase this value to reduce the number of adjustments made.\n"
+"\n"
+"Allowed values: 0.5-5"
+msgstr ""
+
+msgid "Apply only on external features"
+msgstr ""
+
+msgid ""
+"Applies extrusion rate smoothing only on external perimeters and overhangs. This can help reduce artefacts due to sharp speed transitions on externally "
+"visible overhangs without impacting the print speed of features that will not be visible to the user."
+msgstr ""
+
+msgid "Minimum speed for part cooling fan."
+msgstr "Tárgyhűtő ventilátor minimum fordulatszáma"
+
+msgid ""
+"Speed of auxiliary part cooling fan. Auxiliary fan will run at this speed during printing except the first several layers which is defined by no cooling "
+"layers.\n"
+"Please enable auxiliary_fan in printer settings to use this feature. G-code command: M106 P2 S(0-255)"
+msgstr ""
+
+msgid "The lowest printable layer height for the extruder. Used to limit the minimum layer height when enable adaptive layer height."
+msgstr ""
+
+msgid "Min print speed"
+msgstr "Min. nyomtatási sebesség"
+
+msgid ""
+"The minimum print speed to which the printer slows down to maintain the minimum layer time defined above when the slowdown for better layer cooling is "
+"enabled."
+msgstr ""
+
+msgid "The diameter of nozzle."
+msgstr "Fúvóka átmérője"
+
+msgid "Configuration notes"
+msgstr "Konfiguráció megjegyzések"
+
+msgid "You can put here your personal notes. This text will be added to the G-code header comments."
+msgstr "Itt elhelyezheti személyes jegyzeteit. Ez a szöveg hozzá lesz fűzve a G-kód fejlécének megjegyzéseihez."
+
+msgid "Host Type"
+msgstr "Host típusa"
+
+msgid "Orca Slicer can upload G-code files to a printer host. This field must contain the kind of the host."
+msgstr "A Orca Slicer képes G-kód fájlokat feltölteni a nyomtatóra. Ennek a mezőnek tartalmaznia kell a gazdagép típusát."
+
+msgid "Nozzle volume"
+msgstr "Fúvóka térfogata"
+
+msgid "Volume of nozzle between the cutter and the end of nozzle."
+msgstr "A fúvóka térfogata a filamentvágó és a fúvóka vége között"
+
+msgid "Cooling tube position"
+msgstr "Hűtőcső helyzete"
+
+msgid "Distance of the center-point of the cooling tube from the extruder tip."
+msgstr "A hűtőcső középpontjának távolsága az extruder csúcsától."
+
+msgid "Cooling tube length"
+msgstr "Hűtőcső hossza"
+
+msgid "Length of the cooling tube to limit space for cooling moves inside it."
+msgstr "A hűtőcső hossza, ami limitálja a hűtéshez használható helyet annak a belsejében."
+
+msgid "High extruder current on filament swap"
+msgstr "Magas extruderáram a szálcserénél"
+
+msgid ""
+"It may be beneficial to increase the extruder motor current during the filament exchange sequence to allow for rapid ramming feed rates and to overcome "
+"resistance when loading a filament with an ugly shaped tip."
+msgstr ""
+"Előnyös lehet az extrudermotor áramának növelése a filamentcsere során, hogy elérhetővé tegye a tömörítéshez szükséges magas előtolási sebességet és az "
+"ellenállás leküzdését deformált hegyű filament betöltésekor."
+
+msgid "Filament parking position"
+msgstr "Filament parkolási pozíció"
+
+msgid "Distance of the extruder tip from the position where the filament is parked when unloaded. This should match the value in printer firmware."
+msgstr ""
+"Az extruder hegyének távolsága attól a helyzettől, ahol a szál betöltetlenül parkol. Ennek meg kell egyeznie a nyomtató firmware-ében megadott értékkel."
+
+msgid "Extra loading distance"
+msgstr "Extra betöltési hossz"
+
+msgid ""
+"When set to zero, the distance the filament is moved from parking position during load is exactly the same as it was moved back during unload. When "
+"positive, it is loaded further, if negative, the loading move is shorter than unloading."
+msgstr ""
+"Ha nullára van állítva, akkor a filamentet a betöltés során a parkolóhelyzetből pontosan ugyanannyira kerül előtolásra, mint amennyire a kiürítéskor "
+"vissza lett húzva. Ha pozitív, akkor tovább töltődik, ha negatív, akkor a betöltési mozgás rövidebb, mint a kiürítési."
+
+msgid "Start end points"
+msgstr "Kezdő- és végpontok"
+
+msgid "The start and end points which is from cutter area to garbage can."
+msgstr "A kezdő- és végpontok a vágási terület és a kidobónyílás között."
+
+msgid "Reduce infill retraction"
+msgstr "Csökkentett visszahúzás kitöltésnél"
+
+msgid ""
+"Don't retract when the travel is in infill area absolutely. That means the oozing can't been seen. This can reduce times of retraction for complex model "
+"and save printing time, but make slicing and G-code generating slower."
+msgstr ""
+"Nem történik visszahúzás, amikor a fej csak kitöltés felett halad el, mert az itt történő szivárgás egyébként sem látható.\n"
+"Ez az opció lerövidítheti a nyomtatási időt a visszahúzások csökkentésével komplex modelleknél, de egyúttal lassabbá teszi a szeletelést és a G-kód "
+"generálást"
+
+msgid "This option will drop the temperature of the inactive extruders to prevent oozing."
+msgstr ""
+
+msgid "Filename format"
+msgstr "Fájlnév formátum"
+
+msgid "Users can define the project file name when exporting."
+msgstr "A felhasználó dönthet a projektfájlok nevéről exportáláskor."
+
+msgid "Make overhangs printable"
+msgstr ""
+
+msgid "Modify the geometry to print overhangs without support material."
+msgstr ""
+
+msgid "Make overhangs printable - Maximum angle"
+msgstr ""
+
+msgid ""
+"Maximum angle of overhangs to allow after making more steep overhangs printable.90° will not change the model at all and allow any overhang, while 0 will "
+"replace all overhangs with conical material."
+msgstr ""
+
+msgid "Make overhangs printable - Hole area"
+msgstr ""
+
+msgid "Maximum area of a hole in the base of the model before it's filled by conical material. A value of 0 will fill all the holes in the model base."
+msgstr ""
+
+msgid "Detect overhang wall"
+msgstr "Túlnyúló fal felismerése"
+
+#, c-format, boost-format
+msgid "Detect the overhang percentage relative to line width and use different speed to print. For 100%% overhang, bridge speed is used."
+msgstr ""
+"Felismeri a túlnyúlás százalékos arányát a vonalszélességhez viszonyítva, és más sebességet használ. A 100%%-os túlnyúlás esetén az áthidaláshoz "
+"beállított sebességet használja."
+
+msgid "Filament to print walls."
+msgstr ""
+
+msgid "Line width of inner wall. If expressed as a %, it will be computed over the nozzle diameter."
+msgstr ""
+
+msgid "Speed of inner wall."
+msgstr "A belső fal nyomtatási sebessége"
+
+msgid "Number of walls of every layer."
+msgstr "Ez a falak száma rétegenként."
+
+msgid "Alternate extra wall"
+msgstr ""
+
+msgid ""
+"This setting adds an extra wall to every other layer. This way the infill gets wedged vertically between the walls, resulting in stronger prints.\n"
+"\n"
+"When this option is enabled, the ensure vertical shell thickness option needs to be disabled.\n"
+"\n"
+"Using lightning infill together with this option is not recommended as there is limited infill to anchor the extra perimeters to."
+msgstr ""
+
+msgid ""
+"If you want to process the output G-code through custom scripts, just list their absolute paths here. Separate multiple scripts with a semicolon. Scripts "
+"will be passed the absolute path to the G-code file as the first argument, and they can access the Orca Slicer config settings by reading environment "
+"variables."
+msgstr ""
+
+msgid "Printer type"
+msgstr "Nyomtató típusa"
+
+msgid "Type of the printer."
+msgstr ""
+
+msgid "Printer notes"
+msgstr ""
+
+msgid "You can put your notes regarding the printer here."
+msgstr ""
+
+msgid "Printer variant"
+msgstr "Nyomtató változat"
+
+msgid "Raft contact Z distance"
+msgstr "Tutaj érintkezés Z távolság"
+
+msgid "Z gap between object and raft. Ignored for soluble interface."
+msgstr "This is the Z gap between an object and a raft. It is ignored for soluble interfaces."
+
+msgid "Raft expansion"
+msgstr "Tutaj kibővítése"
+
+msgid "Expand all raft layers in XY plane."
+msgstr "Összes tutaj réteg kiterjesztése az XY síkban"
+
+msgid "Initial layer density"
+msgstr "Első réteg sűrűsége"
+
+msgid "Density of the first raft or support layer."
+msgstr "Az első tutaj vagy támasz réteg sűrűsége"
+
+msgid "Initial layer expansion"
+msgstr "First layer expansion"
+
+msgid "Expand the first raft or support layer to improve bed plate adhesion."
+msgstr "This expands the first raft or support layer to improve bed adhesion."
+
+msgid "Raft layers"
+msgstr "Tutaj rétegek"
+
+msgid "Object will be raised by this number of support layers. Use this function to avoid warping when printing ABS."
+msgstr "A tárgy ennyi támaszréteggel kerül megemelésre. Ezzel a funkcióval elkerülheted a vetemedést ABS nyomtatásakor."
+
+msgid ""
+"The G-code path is generated after simplifying the contour of models to avoid too many points and G-code lines. Smaller value means higher resolution and "
+"more time to slice."
+msgstr ""
+"A G-kód útvonal a modell kontúrjának egyszerűsítése után jön létre, hogy elkerüljük a túl sok sort a G-kód fájlban. A kisebb érték nagyobb felbontást és "
+"több időt jelent a szeletelésnél"
+
+msgid "Travel distance threshold"
+msgstr "Mozgás távolságának küszöbértéke"
+
+msgid "Only trigger retraction when the travel distance is longer than this threshold."
+msgstr "Csak akkor indít visszahúzást, ha a mozgási távolság nagyobb, mint ez az érték."
+
+msgid "Retract amount before wipe"
+msgstr "Visszahúzott mennyiség törlés előtt"
+
+msgid "The length of fast retraction before wipe, relative to retraction length."
+msgstr "Ez a törlés előtti gyors visszahúzás hossza a visszahúzási hosszhoz viszonyítva."
+
+msgid "Retract when change layer"
+msgstr "Visszahúzás rétegváltáskor"
+
+msgid "Force a retraction when changes layer."
+msgstr "Kényszeríti a visszahúzást minden rétegváltáskor"
+
+msgid "Retraction Length"
+msgstr "Visszahúzás hossza"
+
+msgid "Some amount of material in extruder is pulled back to avoid ooze during long travel. Set zero to disable retraction."
+msgstr ""
+
+msgid "Long retraction when cut (beta)"
+msgstr ""
+
+msgid ""
+"Experimental feature: Retracting and cutting off the filament at a longer distance during changes to minimize purge. While this reduces flush "
+"significantly, it may also raise the risk of nozzle clogs or other printing problems."
+msgstr ""
+
+msgid "Retraction distance when cut"
+msgstr ""
+
+msgid "Experimental feature: Retraction length before cutting off during filament change."
+msgstr ""
+
+msgid "Long retraction when extruder change"
+msgstr ""
+
+msgid "Retraction distance when extruder change"
+msgstr ""
+
+msgid "Z-hop height"
+msgstr ""
+
+msgid ""
+"Whenever the retraction is done, the nozzle is lifted a little to create clearance between nozzle and the print. It prevents nozzle from hitting the print "
+"when travel move. Using spiral lines to lift Z can prevent stringing."
+msgstr ""
+"Visszahúzáskor a fúvóka egy kicsit megemelkedik, hogy a fúvóka és a nyomtatott tárgy között rés keletkezzen. Ez megakadályozza, hogy a fúvóka nagyobb "
+"mozgás közben a tárgynak ütközzön. A Z tengely emelésekor használt körkörös mozgás megelőzheti a szálazást."
+
+msgid "Z-hop lower boundary"
+msgstr "Z-emelés alsó határa"
+
+msgid "Z-hop will only come into effect when Z is above this value and is below the parameter: \"Z-hop upper boundary\"."
+msgstr "A Z-tengely emelése csak akkor történik meg, ha az emelés mértéke nagyobb ennél az értéknél, de kisebb a „Z-emelés felső határánál“"
+
+msgid "Z-hop upper boundary"
+msgstr "Z-emelés felső határa"
+
+msgid "If this value is positive, Z-hop will only come into effect when Z is above the parameter: \"Z-hop lower boundary\" and is below this value."
+msgstr "Ha ez az érték pozitív, a Z-emelés csak akkor történik meg, ha az emelés mértéke a „Z-emelés alsó határánál“ nagyobb, de kisebb ennél az értéknél"
+
+msgid "Z-hop type"
+msgstr ""
+
+msgid "Type of Z-hop."
+msgstr ""
+
+msgid "Slope"
+msgstr "Lejtő"
+
+msgid "Spiral"
+msgstr "Spirál"
+
+msgid "Traveling angle"
+msgstr ""
+
+msgid "Traveling angle for Slope and Spiral Z-hop type. Setting it to 90° results in Normal Lift."
+msgstr ""
+
+msgid "Only lift Z above"
+msgstr "Z emelés csak efelett"
+
+msgid "If you set this to a positive value, Z lift will only take place above the specified absolute Z."
+msgstr ""
+
+msgid "Only lift Z below"
+msgstr "Z emelés csak ezalatt"
+
+msgid "If you set this to a positive value, Z lift will only take place below the specified absolute Z."
+msgstr ""
+
+msgid "On surfaces"
+msgstr ""
+
+msgid "Enforce Z-Hop behavior. This setting is impacted by the above settings (Only lift Z above/below)."
+msgstr ""
+
+msgid "All Surfaces"
+msgstr ""
+
+msgid "Top Only"
+msgstr ""
+
+msgid "Bottom Only"
+msgstr ""
+
+msgid "Top and Bottom"
+msgstr ""
+
+msgid "Direct Drive"
+msgstr ""
+
+msgid "Bowden"
+msgstr "Bowden"
+
+msgid "Nozzle Volume Type"
+msgstr ""
+
+msgid "Default Nozzle Volume Type."
+msgstr ""
+
+msgid "Extra length on restart"
+msgstr "Extra hossz újraindításkor"
+
+msgid "When the retraction is compensated after the travel move, the extruder will push this additional amount of filament. This setting is rarely needed."
+msgstr ""
+"Amikor a visszahúzás kompenzálásra kerül utazási mozgás után, az extruder ezt a további szálmennyiséget nyomja előre. Erre a beállításra ritkán van "
+"szükség."
+
+msgid "When the retraction is compensated after changing tool, the extruder will push this additional amount of filament."
+msgstr "Amikor a visszahúzás kompenzálásra kerül szerszámváltás után, az extruder ezt a további szálmennyiséget nyomja előre."
+
+msgid "Retraction Speed"
+msgstr "Visszahúzás sebessége"
+
+msgid "Speed for retracting filament from the nozzle."
+msgstr ""
+
+msgid "De-retraction Speed"
+msgstr "Betöltési sebesség"
+
+msgid "Speed for reloading filament into the nozzle. Zero means same speed of retraction."
+msgstr ""
+
+msgid "Use firmware retraction"
+msgstr "Firmware-ben megadott visszahúzás használata"
+
+msgid "This experimental setting uses G10 and G11 commands to have the firmware handle the retraction. This is only supported in recent Marlin."
+msgstr ""
+
+msgid "Show auto-calibration marks"
+msgstr ""
+
+msgid "Disable set remaining print time"
+msgstr ""
+
+msgid "Disable generating of the M73: Set remaining print time in the final G-code."
+msgstr ""
+
+msgid "Seam position"
+msgstr "Varrat pozíció"
+
+msgid "The start position to print each part of outer wall."
+msgstr "A külső fal nyomtatásának kiindulási helyzete."
+
+msgid "Nearest"
+msgstr "Legközelebbi"
+
+msgid "Aligned"
+msgstr "Igazított"
+
+msgid "Aligned back"
+msgstr ""
+
+msgid "Back"
+msgstr "Hátul"
+
+msgid "Random"
+msgstr "Véletlenszerû"
+
+msgid "Staggered inner seams"
+msgstr "Lépcsőzetes belső varrások "
+
+msgid "This option causes the inner seams to be shifted backwards based on their depth, forming a zigzag pattern."
+msgstr ""
+
+msgid "Seam gap"
+msgstr "Varrat hézag"
+
+msgid ""
+"In order to reduce the visibility of the seam in a closed loop extrusion, the loop is interrupted and shortened by a specified amount.\n"
+"This amount can be specified in millimeters or as a percentage of the current extruder diameter. The default value for this parameter is 10%."
+msgstr ""
+
+msgid "Scarf joint seam (beta)"
+msgstr "Sál illesztési varrás"
+
+msgid "Use scarf joint to minimize seam visibility and increase seam strength."
+msgstr ""
+
+msgid "Conditional scarf joint"
+msgstr ""
+
+msgid "Apply scarf joints only to smooth perimeters where traditional seams do not conceal the seams at sharp corners effectively."
+msgstr ""
+
+msgid "Conditional angle threshold"
+msgstr ""
+
+msgid ""
+"This option sets the threshold angle for applying a conditional scarf joint seam.\n"
+"If the maximum angle within the perimeter loop exceeds this value (indicating the absence of sharp corners), a scarf joint seam will be used. The default "
+"value is 155°."
+msgstr ""
+
+msgid "Conditional overhang threshold"
+msgstr ""
+
+#, no-c-format, no-boost-format
+msgid ""
+"This option determines the overhang threshold for the application of scarf joint seams. If the unsupported portion of the perimeter is less than this "
+"threshold, scarf joint seams will be applied. The default threshold is set at 40% of the external wall's width. Due to performance considerations, the "
+"degree of overhang is estimated."
+msgstr ""
+
+msgid "Scarf joint speed"
+msgstr ""
+
+msgid ""
+"This option sets the printing speed for scarf joints. It is recommended to print scarf joints at a slow speed (less than 100 mm/s). It's also advisable to "
+"enable 'Extrusion rate smoothing' if the set speed varies significantly from the speed of the outer or inner walls. If the speed specified here is higher "
+"than the speed of the outer or inner walls, the printer will default to the slower of the two speeds. When specified as a percentage (e.g., 80%), the "
+"speed is calculated based on the respective outer or inner wall speed. The default value is set to 100%."
+msgstr ""
+
+msgid "Scarf joint flow ratio"
+msgstr ""
+
+msgid "This factor affects the amount of material for scarf joints."
+msgstr ""
+
+msgid "Scarf start height"
+msgstr ""
+
+msgid ""
+"Start height of the scarf.\n"
+"This amount can be specified in millimeters or as a percentage of the current layer height. The default value for this parameter is 0."
+msgstr ""
+
+msgid "Scarf around entire wall"
+msgstr ""
+
+msgid "The scarf extends to the entire length of the wall."
+msgstr ""
+
+msgid "Scarf length"
+msgstr ""
+
+msgid "Length of the scarf. Setting this parameter to zero effectively disables the scarf."
+msgstr ""
+
+msgid "Scarf steps"
+msgstr ""
+
+msgid "Minimum number of segments of each scarf."
+msgstr ""
+
+msgid "Scarf joint for inner walls"
+msgstr ""
+
+msgid "Use scarf joint for inner walls as well."
+msgstr ""
+
+msgid "Role base wipe speed"
+msgstr "Szerepköralapú törlési sebesség "
+
+msgid ""
+"The wipe speed is determined by the speed of the current extrusion role. e.g. if a wipe action is executed immediately following an outer wall extrusion, "
+"the speed of the outer wall extrusion will be utilized for the wipe action."
+msgstr ""
+"A törlési sebességet az aktuális extrudálási szerepkör sebessége határozza meg. Pl. ha egy külső fal kihúzását követően azonnal végrehajtunk egy törlési "
+"műveletet, a a külső fal extrudálásának sebességét fogják felhasználni a törlési művelethez."
+
+msgid "Wipe on loops"
+msgstr "Törölje be a hurkokat"
+
+msgid "To minimize the visibility of the seam in a closed loop extrusion, a small inward movement is executed before the extruder leaves the loop."
+msgstr ""
+"A zárt hurkú extrudálás során a varrat láthatóságának minimalizálása érdekében egy kis a befelé irányuló mozgás végrehajtásra kerül, mielőtt az extruder "
+"elhagyná a hurkot."
+
+msgid "Wipe before external loop"
+msgstr "Törölje le a külső hurok előtt"
+
+msgid ""
+"To minimize visibility of potential overextrusion at the start of an external perimeter when printing with Outer/Inner or Inner/Outer/Inner wall print "
+"order, the de-retraction is performed slightly on the inside from the start of the external perimeter. That way any potential over extrusion is hidden "
+"from the outside surface.\n"
+"\n"
+"This is useful when printing with Outer/Inner or Inner/Outer/Inner wall print order as in these modes it is more likely an external perimeter is printed "
+"immediately after a de-retraction move."
+msgstr ""
+"Az esetleges túlextrudálás láthatóságának minimalizálása a külső kerület elején, amikor a külső/belső nyomtatásnálvagy Belső/Külső/Belső fal nyomtatási "
+"sorrendje, a visszahúzás kissé belülre történik a külső kerület. Ily módon az extrudálás feletti potenciál el van rejtve a külső felületről.\n"
+"\n"
+"Ez akkor hasznos, ha Külső/Belső vagy Belső/Külső/Belső fali nyomtatási sorrendben nyomtat, mivel ezekben a módokban valószínűbb.Külső kerület azonnal "
+"kinyomtatásra kerül a visszavonási mozgás után."
+
+msgid "Wipe speed"
+msgstr "Törlés sebessége"
+
+msgid ""
+"The wipe speed is determined by the speed setting specified in this configuration. If the value is expressed as a percentage (e.g. 80%), it will be "
+"calculated based on the travel speed setting above. The default value for this parameter is 80%."
+msgstr ""
+"A törlés sebességét az itt megadott beállítás határozza meg. Ha az érték százalékban van megadva (pl. 80%), akkor azt a rendszer a mozgási "
+"sebességbeállítás alapján számítja ki. Ennek a paraméternek az alapértelmezett értéke 80%"
+
+msgid "Skirt distance"
+msgstr "Szoknya távolsága"
+
+msgid "The distance from the skirt to the brim or the object."
+msgstr "A szoknyától a peremig vagy tárgyig mért távolság"
+
+msgid "Skirt start point"
+msgstr "Szoknya kezdőpontja"
+
+msgid "Angle from the object center to skirt start point. Zero is the most right position, counter clockwise is positive angle."
+msgstr "A tárgy középpontjától a szoknya kezdőpontjáig bezárt szög. A nulla a legpontosabb.az óramutató járásával ellentétes irányban a pozitív szög."
+
+msgid "Skirt height"
+msgstr "Szoknya magassága"
+
+msgid "How many layers of skirt. Usually only one layer."
+msgstr "Hány rétegű a szoknya? Általában csak egy réteg."
+
+msgid "Single loop after first layer"
+msgstr "Egyetlen hurok az első réteg után"
+
+msgid ""
+"Limits the skirt/draft shield loops to one wall after the first layer. This is useful, on occasion, to conserve filament but may cause the draft shield/"
+"skirt to warp / crack."
+msgstr ""
+"Az első réteg után egy falra korlátozza a szoknya/huzatvédő hurkokat. Ez alkalmanként hasznos a megtakarítás érdekében.szál, de a huzatvédő pajzs/szoknya "
+"megvetemedhet / megrepedhet."
+
+msgid "Draft shield"
+msgstr "Huzatvédő"
+
+msgid ""
+"A draft shield is useful to protect an ABS or ASA print from warping and detaching from print bed due to wind draft. It is usually needed only with open "
+"frame printers, i.e. without an enclosure.Enabled = skirt is as tall as the highest printed object. Otherwise 'Skirt height' is used.Note: With the draft "
+"shield active, the skirt will be printed at skirt distance from the object. Therefore, if brims are active it may intersect with them. To avoid this, "
+"increase the skirt distance value."
+msgstr ""
+
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+msgid "Skirt type"
+msgstr "Szoknya típus"
+
+msgid "Combined - single skirt for all objects, Per object - individual object skirt."
+msgstr "Kombinált - egyetlen szoknya minden objektumhoz, Objektumonként - egyedi objektum szoknya."
+
+msgid "Per object"
+msgstr "Objektumonként"
+
+msgid "Skirt loops"
+msgstr "Szoknya hurkok száma"
+
+msgid "Number of loops for the skirt. Zero means disabling skirt."
+msgstr ""
+"A szoknya hurkainak száma. A nulla a szoknya kikapcsolását jelenti.\n"
+"\n"
+"A szoknya (Skirt) egy körvonal, amit a tárgyasztalon lévő összes modell köré nyomtatnak.\n"
+"Még a tárgyak előtt kerül nyomtatásra és a feladata a fúvóka anyagáramlásának stabilizálása"
+
+msgid "Skirt speed"
+msgstr ""
+
+msgid "Speed of skirt, in mm/s. Zero means use default layer extrusion speed."
+msgstr "A szoknya sebessége mm/s-ban. A nulla az alapértelmezett rétegkihúzási sebesség használatát jelenti."
+
+msgid "Skirt minimum extrusion length"
+msgstr "Szoknya minimális kinyúlási hossza"
+
+msgid ""
+"Minimum filament extrusion length in mm when printing the skirt. Zero means this feature is disabled.\n"
+"\n"
+"Using a non-zero value is useful if the printer is set up to print without a prime line.\n"
+"Final number of loops is not taking into account while arranging or validating objects distance. Increase loop number in such case."
+msgstr ""
+"Minimális filament extrudálási hossza mm-ben a szoknya nyomtatásakor. A nulla ezt jelenti.a funkció le van tiltva.\n"
+"A nullától eltérő érték használata akkor hasznos, ha a nyomtató úgy van beállítva, hogy "
+
+msgid ""
+"The printing speed in exported G-code will be slowed down when the estimated layer time is shorter than this value in order to get better cooling for "
+"these layers."
+msgstr ""
+"A nyomtatási sebesség az exportált G-kódban csökkentésre kerül, ha a becsült rétegidő kisebb, mint ez az érték, hogy a rétegek jobb hűtése biztosított "
+"legyen."
+
+msgid "Minimum sparse infill threshold"
+msgstr "Ritkás kitöltés küszöbértéke"
+
+msgid "Sparse infill area which is smaller than threshold value is replaced by internal solid infill."
+msgstr "A küszöbérték alatti ritkás kitöltési terület belső szilárd kitöltéssel kerül leváltásra"
+
+msgid "Solid infill"
+msgstr "Tömör kitöltés"
+
+msgid "Filament to print solid infill."
+msgstr "Filament tömör kitöltés nyomtatásához."
+
+msgid "Line width of internal solid infill. If expressed as a %, it will be computed over the nozzle diameter."
+msgstr "A belső tömör kitöltés vonalszélessége. Ha százalékban van kifejezve, akkor a rendszer kiszámítja.a fúvóka átmérője felett."
+
+msgid "Speed of internal solid infill, not the top and bottom surface."
+msgstr "A belső szilárd kitöltés sebessége, de az az érték nem vonatkozik a felső és alsó felületre"
+
+msgid ""
+"Spiralize smooths out the Z moves of the outer contour. And turns a solid model into a single walled print with solid bottom layers. The final generated "
+"model has no seam."
+msgstr ""
+"A spirál mód kisimítja a külső kontúr Z mozgásait. A tömör modellt egyfalú nyomatokká alakítja, tömör alsó rétegekkel. A végső modellen nincsenek varratok"
+
+msgid "Smooth Spiral"
+msgstr "Sima spirál"
+
+msgid "Smooth Spiral smooths out X and Y moves as well, resulting in no visible seam at all, even in the XY directions on walls that are not vertical."
+msgstr "A sima spirál kisimítja az X és Y mozgásokat is, így egyáltalán nem látható varrás, még az XY irányban sem.falak, amelyek nem függőlegesek."
+
+msgid "Max XY Smoothing"
+msgstr ""
+
+#, no-c-format, no-boost-format
+msgid "Maximum distance to move points in XY to try to achieve a smooth spiral. If expressed as a %, it will be computed over nozzle diameter."
+msgstr ""
+
+msgid "Spiral starting flow ratio"
+msgstr ""
+
+#, no-c-format, no-boost-format
+msgid ""
+"Sets the starting flow ratio while transitioning from the last bottom layer to the spiral. Normally the spiral transition scales the flow ratio from 0% to "
+"100% during the first loop which can in some cases lead to under extrusion at the start of the spiral."
+msgstr ""
+
+msgid "Spiral finishing flow ratio"
+msgstr ""
+
+#, no-c-format, no-boost-format
+msgid ""
+"Sets the finishing flow ratio while ending the spiral. Normally the spiral transition scales the flow ratio from 100% to 0% during the last loop which can "
+"in some cases lead to under extrusion at the end of the spiral."
+msgstr ""
+
+msgid ""
+"If smooth or traditional mode is selected, a timelapse video will be generated for each print. After each layer is printed, a snapshot is taken with the "
+"chamber camera. All of these snapshots are composed into a timelapse video when printing completes. If smooth mode is selected, the toolhead will move to "
+"the excess chute after each layer is printed and then take a snapshot. Since the melt filament may leak from the nozzle during the process of taking a "
+"snapshot, prime tower is required for smooth mode to wipe nozzle."
+msgstr ""
+"Ha a sima vagy a hagyományos mód van kiválasztva, minden nyomtatásnál készül egy timelapse-videó. Az egyes rétegek kinyomtatása után a beépített kamera "
+"egy képet készít. A nyomtatás befejeződése után aztán ezeket a képeket a szoftver egy videóvá fűzi össze. Ha a sima mód van kiválasztva, a réteg "
+"nyomtatása után a nyomtatófej a kidobónyíláshoz mozog, majd a kamera egy képet készít. Mivel a kép készítése során szivároghat valamennyi olvadt filament "
+"a fúvókából, egy törlőtoronyra van szükség a fúvóka megtisztításához."
+
+msgid "Traditional"
+msgstr "Hagyományos"
+
+msgid "Temperature variation"
+msgstr "Hőmérséklet változás"
+
+#. TRN PrintSettings : "Ooze prevention" > "Temperature variation"
+msgid ""
+"Temperature difference to be applied when an extruder is not active. The value is not used when 'idle_temperature' in filament settings is set to non-zero "
+"value."
+msgstr ""
+
+msgid "Preheat time"
+msgstr ""
+
+msgid ""
+"To reduce the waiting time after tool change, Orca can preheat the next tool while the current tool is still in use. This setting specifies the time in "
+"seconds to preheat the next tool. Orca will insert a M104 command to preheat the tool in advance."
+msgstr ""
+
+msgid "Preheat steps"
+msgstr ""
+
+msgid "Insert multiple preheat commands (e.g. M104.1). Only useful for Prusa XL. For other printers, please set it to 1."
+msgstr ""
+
+msgid "Start G-code"
+msgstr "Kezdő G-kód"
+
+msgid "Start G-code when starting the entire print."
+msgstr "Kezdő G-kód az egész nyomtatás megkezdésekor"
+
+msgid "Start G-code when starting the printing of this filament."
+msgstr "Kezdő G-kód a filament nyomtatásának megkezdésekor"
+
+msgid "Single Extruder Multi Material"
+msgstr "Egyetlen Extruder Többféle Anyag"
+
+msgid "Use single nozzle to print multi filament."
+msgstr ""
+
+msgid "Manual Filament Change"
+msgstr ""
+
+msgid ""
+"Enable this option to omit the custom Change filament G-code only at the beginning of the print. The tool change command (e.g., T0) will be skipped "
+"throughout the entire print. This is useful for manual multi-material printing, where we use M600/PAUSE to trigger the manual filament change action."
+msgstr ""
+
+msgid "Purge in prime tower"
+msgstr ""
+
+msgid "Purge remaining filament into prime tower."
+msgstr ""
+
+msgid "Enable filament ramming"
+msgstr ""
+
+msgid "No sparse layers (beta)"
+msgstr ""
+
+msgid ""
+"If enabled, the wipe tower will not be printed on layers with no tool changes. On layers with a tool change, extruder will travel downward to print the "
+"wipe tower. User is responsible for ensuring there is no collision with the print."
+msgstr ""
+"Ha engedélyezve van, akkor törlőtorony nem kerül kinyomtatásra szerszámváltás nélküli rétegeken. A szerszámcserével rendelkező rétegeken az extruder az "
+"aktuális magasság alá süllyed a törlőtorony nyomtatásához. A felhasználó felelős azért, hogy ez ne okozzon ütközést a nyomtatás során."
+
+msgid "Prime all printing extruders"
+msgstr "Az összes nyomtató extruder előkészítése"
+
+msgid "If enabled, all printing extruders will be primed at the front edge of the print bed at the start of the print."
+msgstr "Ha engedélyezve van, akkor a nyomtatás kezdetén az összes nyomtató extruder előkészítésre kerül a tárgyasztal elülső szélénél."
+
+msgid "Slice gap closing radius"
+msgstr "Szeletelési hézag lezárási sugara"
+
+msgid ""
+"Cracks smaller than 2x gap closing radius are being filled during the triangle mesh slicing. The gap closing operation may reduce the final print "
+"resolution, therefore it is advisable to keep the value reasonably low."
+msgstr ""
+"A háromszögháló szeletelés során a szeletelési hézag lezárási sugaránál 2x kisebb résekk feltöltésre kerülnek. A hézagok lezárása csökkentheti a "
+"nyomtatási felbontást, ezért ajánlott ezt az értéket alacsonyan tartani."
+
+msgid "Slicing Mode"
+msgstr "Szeletelési mód"
+
+msgid "Use \"Even-odd\" for 3DLabPrint airplane models. Use \"Close holes\" to close all holes in the model."
+msgstr ""
+"Használd a „Páros-páratlan“ opciót a 3DLabPrint repülőgépmodellekhez. Használd a „Hézagok lezárása“ lehetőséget a modell összes házagának lezárásához."
+
+msgid "Regular"
+msgstr "Normál"
+
+msgid "Even-odd"
+msgstr "Páros-páratlan"
+
+msgid "Close holes"
+msgstr "Hézagok lezárása"
+
+msgid "Z offset"
+msgstr "Z ofszet"
+
+msgid ""
+"This value will be added (or subtracted) from all the Z coordinates in the output G-code. It is used to compensate for bad Z endstop position: for "
+"example, if your endstop zero actually leaves the nozzle 0.3mm far from the print bed, set this to -0.3 (or fix your endstop)."
+msgstr ""
+"Ez az érték hozzáadódik (vagy kivonásra kerül) az összes Z koordinátához a kimeneti G-kódban. A Z tengely végállás pozíciójának kompenzálására szolgál: "
+"például ha a végállás nullája valójában 0,3 mm-re hagyja a fúvókát a tárgyasztal felett, akkor állítsa ezt az értéke -0,3-ra (vagy javítsa meg a "
+"végállást)."
+
+msgid "Enable support"
+msgstr "Támasz engedélyezése"
+
+msgid "Enable support generation."
+msgstr "Engedélyezi a támasz generálását."
+
+#, fuzzy
+msgid ""
+"Normal (auto) and Tree (auto) are used to generate support automatically. If Normal (manual) or Tree (manual) is selected, only support enforcers are "
+"generated."
+msgstr ""
+"A normál (auto) és a fa (auto) a támaszok automatikus generálásához van használva. Ha a normál (kézi) vagy a fa (kézi) van kiválasztva, akkor csak a "
+"kényszerített támaszok kerülnek generálásra."
+
+msgid "Normal (auto)"
+msgstr "normál (auto)"
+
+msgid "Tree (auto)"
+msgstr "fa (auto)"
+
+msgid "Normal (manual)"
+msgstr "normál (manuális)"
+
+msgid "Tree (manual)"
+msgstr "fa (manuális)"
+
+msgid "Support/object XY distance"
+msgstr "Támasz/tárgy XY távolság"
+
+msgid "XY separation between an object and its support."
+msgstr "Ez szabályozza a tárgy és a támasz közötti XY elválasztás távolságát."
+
+msgid "Support/object first layer gap"
+msgstr ""
+
+msgid "XY separation between an object and its support at the first layer."
+msgstr ""
+
+msgid "Pattern angle"
+msgstr "Mintázat szöge"
+
+msgid "Use this setting to rotate the support pattern on the horizontal plane."
+msgstr "Ezzel a beállítással elforgathatod a támasz mintázatát a vízszintes síkon."
+
+msgid "On build plate only"
+msgstr "Csak a tárgyasztaltól"
+
+msgid "Don't create support on model surface, only on build plate."
+msgstr "Nem generál támaszt a modell felületén, csak a tárgyasztalon"
+
+msgid "Support critical regions only"
+msgstr "Csak a kritikus területek alátámasztása"
+
+msgid "Only create support for critical regions including sharp tail, cantilever, etc."
+msgstr "Csak olyan kritikus területekhez generál támasztékot, mint például egy farok vagy egyéb kiálló részek."
+
+msgid "Ignore small overhangs"
+msgstr ""
+
+msgid "Ignore small overhangs that possibly don't require support."
+msgstr ""
+
+msgid "Top Z distance"
+msgstr "Z távolság"
+
+msgid "The Z gap between the top support interface and object."
+msgstr "Meghatározza a Z távolságot a felső támasz érintkező rétege és az objektum között."
+
+msgid "Bottom Z distance"
+msgstr "Alsó Z távolság"
+
+msgid "The Z gap between the bottom support interface and object."
+msgstr "A Z távolság az alsó támasz érintkező rétege és az objektum között."
+
+msgid "Support/raft base"
+msgstr ""
+
+msgid "Filament to print support base and raft. \"Default\" means no specific filament for support and current filament is used."
+msgstr ""
+"A támasz alapjához és a tutaj nyomtatásához használt filament. Az „Alapértelmezett“ beállítás választásakor a jelenleg használt filament kerül "
+"felhasználásra."
+
+msgid "Avoid interface filament for base"
+msgstr "Kerülje a támaszanyag használatát az alaphoz"
+
+msgid "Avoid using support interface filament to print support base if possible."
+msgstr "Ha lehetséges, kerüli a dedikált támaszanyag (filament) használatát a támaszalap nyomtatásához."
+
+msgid "Line width of support. If expressed as a %, it will be computed over the nozzle diameter."
+msgstr ""
+
+msgid "Interface use loop pattern"
+msgstr "Hurokminta felület"
+
+msgid "Cover the top contact layer of the supports with loops. Disabled by default."
+msgstr "Lefedi a támasz felső érintkező rétegét körökkel. Alapértelmezés szerint letiltva."
+
+msgid "Support/raft interface"
+msgstr ""
+
+msgid "Filament to print support interface. \"Default\" means no specific filament for support interface and current filament is used."
+msgstr ""
+"Filament a támasz érintkező felületének nyomtatásához. Az „Alapértelmezett“ beállítás választásakor a jelenleg használt filament kerül felhasználásra."
+
+msgid "Top interface layers"
+msgstr "Felső érintkező rétegek"
+
+msgid "Number of top interface layers."
+msgstr "A felső érintkező rétegek száma."
+
+msgid "Bottom interface layers"
+msgstr "Alsó érintkező rétegek"
+
+msgid "Number of bottom interface layers."
+msgstr "Alsó érintkezőrétegek száma"
+
+msgid "Same as top"
+msgstr "Ugyanaz, mint a felső"
+
+msgid "Top interface spacing"
+msgstr "Felső érintkező felület térköze"
+
+msgid ""
+"Spacing of interface lines. Zero means solid interface.\n"
+"Force using solid interface when support ironing is enabled."
+msgstr ""
+
+msgid "Bottom interface spacing"
+msgstr "Alső érintkező réteg térköz"
+
+msgid "Spacing of bottom interface lines. Zero means solid interface."
+msgstr "Az érintkező réteg vonalai közötti távolság. A nulla szilárd kitöltést jelent"
+
+msgid "Speed of support interface."
+msgstr "Támasz érintkező felületek sebessége"
+
+msgid "Base pattern"
+msgstr "Alap mintázata"
+
+msgid "Line pattern of support."
+msgstr "A támasz mintázata."
+
+msgid "Rectilinear grid"
+msgstr "Vonalrács"

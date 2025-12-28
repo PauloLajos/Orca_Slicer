@@ -1,0 +1,13 @@
+{
+    "from": "User",
+    "gcode_flavor": "klipper",
+    "inherits": "Creality Ender-3 V3 SE 0.4 nozzle",
+    "is_custom_defined": "0",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\n",
+    "machine_end_gcode": "PRINT_END",
+    "machine_pause_gcode": "PAUSE",
+    "machine_start_gcode": "PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]",
+    "name": "Creality Ender-3 V3 SE 0.4 nozzle - klipper2",
+    "printer_settings_id": "Creality Ender-3 V3 SE 0.4 nozzle - klipper2",
+    "version": "2.3.1.10"
+}

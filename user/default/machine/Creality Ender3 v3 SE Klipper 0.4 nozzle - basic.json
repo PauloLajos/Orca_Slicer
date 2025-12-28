@@ -1,0 +1,74 @@
+{
+    "bed_custom_model": "E:\\\\Creality Ender3 v3SE\\\\creality_ender3v3se_buildplate_model.stl",
+    "bed_custom_texture": "E:\\\\Creality Ender3 v3SE\\\\creality_ender3v3se_buildplate_texture.png",
+    "extruder_clearance_height_to_lid": "34",
+    "extruder_clearance_height_to_rod": "47",
+    "extruder_clearance_radius": "90",
+    "from": "User",
+    "inherits": "MyKlipper 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_max_acceleration_extruding": [
+        "2500",
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "500",
+        "5000"
+    ],
+    "machine_max_acceleration_x": [
+        "2500",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "2500",
+        "20000"
+    ],
+    "machine_max_jerk_e": [
+        "5",
+        "2.5"
+    ],
+    "machine_max_jerk_x": [
+        "10",
+        "9"
+    ],
+    "machine_max_jerk_y": [
+        "10",
+        "9"
+    ],
+    "machine_max_jerk_z": [
+        "0.4",
+        "0.4"
+    ],
+    "machine_max_speed_e": [
+        "40",
+        "25"
+    ],
+    "machine_max_speed_x": [
+        "250",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "250",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "5",
+        "12"
+    ],
+    "name": "Creality Ender3 v3 SE Klipper 0.4 nozzle - basic",
+    "nozzle_type": "brass",
+    "printable_area": [
+        "0x0",
+        "220x0",
+        "220x220",
+        "0x220"
+    ],
+    "printer_settings_id": "Creality Ender3 v3 SE Klipper 0.4 nozzle - basic",
+    "retraction_minimum_travel": [
+        "2"
+    ],
+    "retraction_speed": [
+        "40"
+    ],
+    "version": "2.3.1.10"
+}
